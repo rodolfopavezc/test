@@ -1,0 +1,438 @@
+﻿##
+## PHPExcel
+##
+## Copyright (c) 2006 - 2011 PHPExcel
+##
+## This library is free software; you can redistribute it and/or
+## modify it under the terms of the GNU Lesser General Public
+## License as published by the Free Software Foundation; either
+## version 2.1 of the License, or (at your option) any later version.
+##
+## This library is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+## Lesser General Public License for more details.
+##
+## You should have received a copy of the GNU Lesser General Public
+## License along with this library; if not, write to the Free Software
+## Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+##
+## @category   PHPExcel
+## @package    PHPExcel_Calculation
+## @copyright  Copyright (c) 2006 - 2011 PHPExcel (http://www.codeplex.com/PHPExcel)
+## @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
+## @version    1.7.8, 2012-10-12
+##
+## Data in this file derived from http://www.piuha.fi/excel-function-name-translation/
+##
+##
+
+
+##
+##	Add-in and Automation functions			Tilføjelsesprogram- og automatiseringsfunktioner
+##
+GETPIVOTDATA		= HENTPIVOTDATA			##	Returnerer data, der er lagret i en pivottabelrapport
+
+
+##
+##	Cube functions					Kubefunktioner
+##
+CUBEKPIMEMBER		= KUBE.KPI.MEDLEM		##	Returnerer navn, egenskab og mål for en KPI-indikator og viser navnet og egenskaben i cellen. En KPI-indikator er en målbar størrelse, f.eks. bruttooverskud pr. måned eller personaleudskiftning pr. kvartal, der bruges til at overvåge en organisations præstationer.
+CUBEMEMBER		= KUBE.MEDLEM			##	Returnerer et medlem eller en tupel fra kubehierarkiet. Bruges til at validere, om et medlem eller en tupel findes i kuben.
+CUBEMEMBERPROPERTY	= KUBEMEDLEM.EGENSKAB		##	Returnerer værdien af en egenskab for et medlem i kuben. Bruges til at validere, om et medlemsnavn findes i kuben, og returnere den angivne egenskab for medlemmet.
+CUBERANKEDMEMBER	= KUBEMEDLEM.RANG		##	Returnerer det n'te eller rangordnede medlem i et sæt. Bruges til at returnere et eller flere elementer i et sæt, f.eks. topsælgere eller de 10 bedste elever.
+CUBESET			= KUBESÆT			##	Definerer et beregnet sæt medlemmer eller tupler ved at sende et sætudtryk til kuben på serveren, som opretter sættet og returnerer det til Microsoft Office Excel.
+CUBESETCOUNT		= KUBESÆT.TÆL			##	Returnerer antallet af elementer i et sæt.
+CUBEVALUE		= KUBEVÆRDI			##	Returnerer en sammenlagt (aggregeret) værdi fra en kube.
+
+
+##
+##	Database functions				Databasefunktioner
+##
+DAVERAGE		= DMIDDEL			##	Returnerer gennemsnittet af markerede databaseposter
+DCOUNT			= DTÆL				##	Tæller de celler, der indeholder tal, i en database
+DCOUNTA			= DTÆLV				##	Tæller udfyldte celler i en database
+DGET			= DHENT				##	Uddrager en enkelt post, der opfylder de angivne kriterier, fra en database
+DMAX			= DMAKS				##	Returnerer den største værdi blandt markerede databaseposter
+DMIN			= DMIN				##	Returnerer den mindste værdi blandt markerede databaseposter
+DPRODUCT		= DPRODUKT			##	Ganger værdierne i et bestemt felt med poster, der opfylder kriterierne i en database
+DSTDEV			= DSTDAFV			##	Beregner et skøn over standardafvigelsen baseret på en stikprøve af markerede databaseposter
+DSTDEVP			= DSTDAFVP			##	Beregner standardafvigelsen baseret på hele populationen af markerede databaseposter
+DSUM			= DSUM				##	Sammenlægger de tal i feltkolonnen i databasen, der opfylder kriterierne
+DVAR			= DVARIANS			##	Beregner varians baseret på en stikprøve af markerede databaseposter
+DVARP			= DVARIANSP			##	Beregner varians baseret på hele populationen af markerede databaseposter
+
+
+##
+##	Date and time functions				Dato- og klokkeslætsfunktioner
+##
+DATE			= DATO				##	Returnerer serienummeret for en bestemt dato
+DATEVALUE		= DATOVÆRDI			##	Konverterer en dato i form af tekst til et serienummer
+DAY			= DAG				##	Konverterer et serienummer til en dag i måneden
+DAYS360			= DAGE360			##	Beregner antallet af dage mellem to datoer på grundlag af et år med 360 dage
+EDATE			= EDATO				##	Returnerer serienummeret for den dato, der ligger det angivne antal måneder før eller efter startdatoen
+EOMONTH			= SLUT.PÅ.MÅNED			##	Returnerer serienummeret på den sidste dag i måneden før eller efter et angivet antal måneder
+HOUR			= TIME				##	Konverterer et serienummer til en time
+MINUTE			= MINUT				##	Konverterer et serienummer til et minut
+MONTH			= MÅNED				##	Konverterer et serienummer til en måned
+NETWORKDAYS		= ANTAL.ARBEJDSDAGE		##	Returnerer antallet af hele arbejdsdage mellem to datoer
+NOW			= NU				##	Returnerer serienummeret for den aktuelle dato eller det aktuelle klokkeslæt
+SECOND			= SEKUND			##	Konverterer et serienummer til et sekund
+TIME			= KLOKKESLÆT			##	Returnerer serienummeret for et bestemt klokkeslæt
+TIMEVALUE		= TIDSVÆRDI			##	Konverterer et klokkeslæt i form af tekst til et serienummer
+TODAY			= IDAG				##	Returnerer serienummeret for dags dato
+WEEKDAY			= UGEDAG			##	Konverterer et serienummer til en ugedag
+WEEKNUM			= UGE.NR			##	Konverterer et serienummer til et tal, der angiver ugenummeret i året
+WORKDAY			= ARBEJDSDAG			##	Returnerer serienummeret for dagen før eller efter det angivne antal arbejdsdage
+YEAR			= ÅR				##	Konverterer et serienummer til et år
+YEARFRAC		= ÅR.BRØK			##	Returnerer årsbrøken, der repræsenterer antallet af hele dage mellem startdato og slutdato
+
+
+##
+##	Engineering functions				Tekniske funktioner
+##
+BESSELI			= BESSELI			##	Returnerer den modificerede Bessel-funktion In(x)
+BESSELJ			= BESSELJ			##	Returnerer Bessel-funktionen Jn(x)
+BESSELK			= BESSELK			##	Returnerer den modificerede Bessel-funktion Kn(x)
+BESSELY			= BESSELY			##	Returnerer Bessel-funktionen Yn(x)
+BIN2DEC			= BIN.TIL.DEC			##	Konverterer et binært tal til et decimaltal
+BIN2HEX			= BIN.TIL.HEX			##	Konverterer et binært tal til et heksadecimalt tal
+BIN2OCT			= BIN.TIL.OKT			##	Konverterer et binært tal til et oktaltal.
+COMPLEX			= KOMPLEKS			##	Konverterer reelle og imaginære koefficienter til et komplekst tal
+CONVERT			= KONVERTER			##	Konverterer et tal fra �n måleenhed til en anden
+DEC2BIN			= DEC.TIL.BIN			##	Konverterer et decimaltal til et binært tal
+DEC2HEX			= DEC.TIL.HEX			##	Konverterer et decimaltal til et heksadecimalt tal
+DEC2OCT			= DEC.TIL.OKT			##	Konverterer et decimaltal til et oktaltal
+DELTA			= DELTA				##	Tester, om to værdier er ens
+ERF			= FEJLFUNK			##	Returner fejlfunktionen
+ERFC			= FEJLFUNK.KOMP			##	Returnerer den komplementære fejlfunktion
+GESTEP			= GETRIN			##	Tester, om et tal er større end en grænseværdi
+HEX2BIN			= HEX.TIL.BIN			##	Konverterer et heksadecimalt tal til et binært tal
+HEX2DEC			= HEX.TIL.DEC			##	Konverterer et decimaltal til et heksadecimalt tal
+HEX2OCT			= HEX.TIL.OKT			##	Konverterer et heksadecimalt tal til et oktaltal
+IMABS			= IMAGABS			##	Returnerer den absolutte værdi (modulus) for et komplekst tal
+IMAGINARY		= IMAGINÆR			##	Returnerer den imaginære koefficient for et komplekst tal
+IMARGUMENT		= IMAGARGUMENT			##	Returnerer argumentet theta, en vinkel udtrykt i radianer
+IMCONJUGATE		= IMAGKONJUGERE			##	Returnerer den komplekse konjugation af et komplekst tal
+IMCOS			= IMAGCOS			##	Returnerer et komplekst tals cosinus
+IMDIV			= IMAGDIV			##	Returnerer kvotienten for to komplekse tal
+IMEXP			= IMAGEKSP			##	Returnerer et komplekst tals eksponentialfunktion
+IMLN			= IMAGLN			##	Returnerer et komplekst tals naturlige logaritme
+IMLOG10			= IMAGLOG10			##	Returnerer et komplekst tals sædvanlige logaritme (titalslogaritme)
+IMLOG2			= IMAGLOG2			##	Returnerer et komplekst tals sædvanlige logaritme (totalslogaritme)
+IMPOWER			= IMAGPOTENS			##	Returnerer et komplekst tal opløftet i en heltalspotens
+IMPRODUCT		= IMAGPRODUKT			##	Returnerer produktet af komplekse tal
+IMREAL			= IMAGREELT			##	Returnerer den reelle koefficient for et komplekst tal
+IMSIN			= IMAGSIN			##	Returnerer et komplekst tals sinus
+IMSQRT			= IMAGKVROD			##	Returnerer et komplekst tals kvadratrod
+IMSUB			= IMAGSUB			##	Returnerer forskellen mellem to komplekse tal
+IMSUM			= IMAGSUM			##	Returnerer summen af komplekse tal
+OCT2BIN			= OKT.TIL.BIN			##	Konverterer et oktaltal til et binært tal
+OCT2DEC			= OKT.TIL.DEC			##	Konverterer et oktaltal til et decimaltal
+OCT2HEX			= OKT.TIL.HEX			##	Konverterer et oktaltal til et heksadecimalt tal
+
+
+##
+##	Financial functions				Finansielle funktioner
+##
+ACCRINT			= PÅLØBRENTE			##	Returnerer den påløbne rente for et værdipapir med periodiske renteudbetalinger
+ACCRINTM		= PÅLØBRENTE.UDLØB		##	Returnerer den påløbne rente for et værdipapir, hvor renteudbetalingen finder sted ved papirets udløb
+AMORDEGRC		= AMORDEGRC			##	Returnerer afskrivningsbeløbet for hver regnskabsperiode ved hjælp af en afskrivningskoefficient
+AMORLINC		= AMORLINC			##	Returnerer afskrivningsbeløbet for hver regnskabsperiode
+COUPDAYBS		= KUPONDAGE.SA			##	Returnerer antallet af dage fra starten af kuponperioden til afregningsdatoen
+COUPDAYS		= KUPONDAGE.A			##	Returnerer antallet af dage fra begyndelsen af kuponperioden til afregningsdatoen
+COUPDAYSNC		= KUPONDAGE.ANK			##	Returnerer antallet af dage i den kuponperiode, der indeholder afregningsdatoen
+COUPNCD			= KUPONDAG.NÆSTE		##	Returnerer den næste kupondato efter afregningsdatoen
+COUPNUM			= KUPONBETALINGER		##	Returnerer antallet af kuponudbetalinger mellem afregnings- og udløbsdatoen
+COUPPCD			= KUPONDAG.FORRIGE		##	Returnerer den forrige kupondato før afregningsdatoen
+CUMIPMT			= AKKUM.RENTE			##	Returnerer den akkumulerede rente, der betales på et lån mellem to perioder
+CUMPRINC		= AKKUM.HOVEDSTOL		##	Returnerer den akkumulerede nedbringelse af hovedstol mellem to perioder
+DB			= DB				##	Returnerer afskrivningen på et aktiv i en angivet periode ved anvendelse af saldometoden
+DDB			= DSA				##	Returnerer afskrivningsbeløbet for et aktiv over en bestemt periode ved anvendelse af dobbeltsaldometoden eller en anden afskrivningsmetode, som du angiver
+DISC			= DISKONTO			##	Returnerer et værdipapirs diskonto
+DOLLARDE		= KR.DECIMAL			##	Konverterer en kronepris udtrykt som brøk til en kronepris udtrykt som decimaltal
+DOLLARFR		= KR.BRØK			##	Konverterer en kronepris udtrykt som decimaltal til en kronepris udtrykt som brøk
+DURATION		= VARIGHED			##	Returnerer den årlige løbetid for et værdipapir med periodiske renteudbetalinger
+EFFECT			= EFFEKTIV.RENTE		##	Returnerer den årlige effektive rente
+FV			= FV				##	Returnerer fremtidsværdien af en investering
+FVSCHEDULE		= FVTABEL			##	Returnerer den fremtidige værdi af en hovedstol, når der er tilskrevet rente og rentes rente efter forskellige rentesatser
+INTRATE			= RENTEFOD			##	Returnerer renten på et fuldt ud investeret værdipapir
+IPMT			= R.YDELSE			##	Returnerer renten fra en investering for en given periode
+IRR			= IA				##	Returnerer den interne rente for en række pengestrømme
+ISPMT			= ISPMT				##	Beregner den betalte rente i løbet af en bestemt investeringsperiode
+MDURATION		= MVARIGHED			##	Returnerer Macauleys modificerede løbetid for et værdipapir med en formodet pari på kr. 100
+MIRR			= MIA				##	Returnerer den interne forrentning, hvor positive og negative pengestrømme finansieres til forskellig rente
+NOMINAL			= NOMINEL			##	Returnerer den årlige nominelle rente
+NPER			= NPER				##	Returnerer antallet af perioder for en investering
+NPV			= NUTIDSVÆRDI			##	Returnerer nettonutidsværdien for en investering baseret på en række periodiske pengestrømme og en diskonteringssats
+ODDFPRICE		= ULIGE.KURS.PÅLYDENDE		##	Returnerer kursen pr. kr. 100 nominel værdi for et værdipapir med en ulige (kort eller lang) første periode
+ODDFYIELD		= ULIGE.FØRSTE.AFKAST		##	Returnerer afkastet for et værdipapir med ulige første periode
+ODDLPRICE		= ULIGE.SIDSTE.KURS		##	Returnerer kursen pr. kr. 100 nominel værdi for et værdipapir med ulige sidste periode
+ODDLYIELD		= ULIGE.SIDSTE.AFKAST		##	Returnerer afkastet for et værdipapir med ulige sidste periode
+PMT			= YDELSE			##	Returnerer renten fra en investering for en given periode
+PPMT			= H.YDELSE			##	Returnerer ydelsen på hovedstolen for en investering i en given periode
+PRICE			= KURS				##	Returnerer kursen pr. kr 100 nominel værdi for et værdipapir med periodiske renteudbetalinger
+PRICEDISC		= KURS.DISKONTO			##	Returnerer kursen pr. kr 100 nominel værdi for et diskonteret værdipapir
+PRICEMAT		= KURS.UDLØB			##	Returnerer kursen pr. kr 100 nominel værdi for et værdipapir, hvor renten udbetales ved papirets udløb
+PV			= NV				##	Returnerer den nuværende værdi af en investering
+RATE			= RENTE				##	Returnerer renten i hver periode for en annuitet
+RECEIVED		= MODTAGET.VED.UDLØB		##	Returnerer det beløb, der modtages ved udløbet af et fuldt ud investeret værdipapir
+SLN			= LA				##	Returnerer den lineære afskrivning for et aktiv i en enkelt periode
+SYD			= ÅRSAFSKRIVNING		##	Returnerer den årlige afskrivning på et aktiv i en bestemt periode
+TBILLEQ			= STATSOBLIGATION		##	Returnerer det obligationsækvivalente afkast for en statsobligation
+TBILLPRICE		= STATSOBLIGATION.KURS		##	Returnerer kursen pr. kr 100 nominel værdi for en statsobligation
+TBILLYIELD		= STATSOBLIGATION.AFKAST	##	Returnerer en afkastet på en statsobligation
+VDB			= VSA				##	Returnerer afskrivningen på et aktiv i en angivet periode, herunder delperioder, ved brug af dobbeltsaldometoden
+XIRR			= INTERN.RENTE			##	Returnerer den interne rente for en plan over pengestrømme, der ikke behøver at være periodiske
+XNPV			= NETTO.NUTIDSVÆRDI		##	Returnerer nutidsværdien for en plan over pengestrømme, der ikke behøver at være periodiske
+YIELD			= AFKAST			##	Returnerer afkastet for et værdipapir med periodiske renteudbetalinger
+YIELDDISC		= AFKAST.DISKONTO		##	Returnerer det årlige afkast for et diskonteret værdipapir, f.eks. en statsobligation
+YIELDMAT		= AFKAST.UDLØBSDATO		##	Returnerer det årlige afkast for et værdipapir, hvor renten udbetales ved papirets udløb
+
+
+##
+##	Information functions				Informationsfunktioner
+##
+CELL			= CELLE				##	Returnerer oplysninger om formatering, placering eller indhold af en celle
+ERROR.TYPE		= FEJLTYPE			##	Returnerer et tal, der svarer til en fejltype
+INFO			= INFO				##	Returnerer oplysninger om det aktuelle operativmiljø
+ISBLANK			= ER.TOM			##	Returnerer SAND, hvis værdien er tom
+ISERR			= ER.FJL			##	Returnerer SAND, hvis værdien er en fejlværdi undtagen #I/T
+ISERROR			= ER.FEJL			##	Returnerer SAND, hvis værdien er en fejlværdi
+ISEVEN			= ER.LIGE			##	Returnerer SAND, hvis tallet er lige
+ISLOGICAL		= ER.LOGISK			##	Returnerer SAND, hvis værdien er en logisk værdi
+ISNA			= ER.IKKE.TILGÆNGELIG		##	Returnerer SAND, hvis værdien er fejlværdien #I/T
+ISNONTEXT		= ER.IKKE.TEKST			##	Returnerer SAND, hvis værdien ikke er tekst
+ISNUMBER		= ER.TAL			##	Returnerer SAND, hvis værdien er et tal
+ISODD			= ER.ULIGE			##	Returnerer SAND, hvis tallet er ulige
+ISREF			= ER.REFERENCE			##	Returnerer SAND, hvis værdien er en reference
+ISTEXT			= ER.TEKST			##	Returnerer SAND, hvis værdien er tekst
+N			= TAL				##	Returnerer en værdi konverteret til et tal
+NA			= IKKE.TILGÆNGELIG		##	Returnerer fejlværdien #I/T
+TYPE			= VÆRDITYPE			##	Returnerer et tal, der angiver datatypen for en værdi
+
+
+##
+##	Logical functions				Logiske funktioner
+##
+AND			= OG				##	Returnerer SAND, hvis alle argumenterne er sande
+FALSE			= FALSK				##	Returnerer den logiske værdi FALSK
+IF			= HVIS				##	Angiver en logisk test, der skal udføres
+IFERROR			= HVIS.FEJL			##	Returnerer en værdi, du angiver, hvis en formel evauleres som en fejl. Returnerer i modsat fald resultatet af formlen
+NOT			= IKKE				##	Vender argumentets logik om
+OR			= ELLER				##	Returneret værdien SAND, hvis mindst �t argument er sandt
+TRUE			= SAND				##	Returnerer den logiske værdi SAND
+
+
+##
+##	Lookup and reference functions			Opslags- og referencefunktioner
+##
+ADDRESS			= ADRESSE			##	Returnerer en reference som tekst til en enkelt celle i et regneark
+AREAS			= OMRÅDER			##	Returnerer antallet af områder i en reference
+CHOOSE			= VÆLG				##	Vælger en værdi på en liste med værdier
+COLUMN			= KOLONNE			##	Returnerer kolonnenummeret i en reference
+COLUMNS			= KOLONNER			##	Returnerer antallet af kolonner i en reference
+HLOOKUP			= VOPSLAG			##	Søger i den øverste række af en matrix og returnerer værdien af den angivne celle
+HYPERLINK		= HYPERLINK			##	Opretter en genvej kaldet et hyperlink, der åbner et dokument, som er lagret på en netværksserver, på et intranet eller på internettet
+INDEX			= INDEKS			##	Anvender et indeks til at vælge en værdi fra en reference eller en matrix
+INDIRECT		= INDIREKTE			##	Returnerer en reference, der er angivet af en tekstværdi
+LOOKUP			= SLÅ.OP			##	Søger værdier i en vektor eller en matrix
+MATCH			= SAMMENLIGN			##	Søger værdier i en reference eller en matrix
+OFFSET			= FORSKYDNING			##	Returnerer en reference forskudt i forhold til en given reference
+ROW			= RÆKKE				##	Returnerer rækkenummeret for en reference
+ROWS			= RÆKKER			##	Returnerer antallet af rækker i en reference
+RTD			= RTD				##	Henter realtidsdata fra et program, der understøtter COM-automatisering (Automation: En metode til at arbejde med objekter fra et andet program eller udviklingsværktøj. Automation, som tidligere blev kaldt OLE Automation, er en industristandard og en funktion i COM (Component Object Model).)
+TRANSPOSE		= TRANSPONER			##	Returnerer en transponeret matrix
+VLOOKUP			= LOPSLAG			##	Søger i øverste række af en matrix og flytter på tværs af rækken for at returnere en celleværdi
+
+
+##
+##	Math and trigonometry functions			Matematiske og trigonometriske funktioner
+##
+ABS			= ABS				##	Returnerer den absolutte værdi af et tal
+ACOS			= ARCCOS			##	Returnerer et tals arcus cosinus
+ACOSH			= ARCCOSH			##	Returnerer den inverse hyperbolske cosinus af tal
+ASIN			= ARCSIN			##	Returnerer et tals arcus sinus
+ASINH			= ARCSINH			##	Returnerer den inverse hyperbolske sinus for tal
+ATAN			= ARCTAN			##	Returnerer et tals arcus tangens
+ATAN2			= ARCTAN2			##	Returnerer de angivne x- og y-koordinaters arcus tangens
+ATANH			= ARCTANH			##	Returnerer et tals inverse hyperbolske tangens
+CEILING			= AFRUND.LOFT			##	Afrunder et tal til nærmeste heltal eller til nærmeste multiplum af betydning
+COMBIN			= KOMBIN			##	Returnerer antallet af kombinationer for et givet antal objekter
+COS			= COS				##	Returnerer et tals cosinus
+COSH			= COSH				##	Returnerer den inverse hyperbolske cosinus af et tal
+DEGREES			= GRADER			##	Konverterer radianer til grader
+EVEN			= LIGE				##	Runder et tal op til nærmeste lige heltal
+EXP			= EKSP				##	Returnerer e opløftet til en potens af et angivet tal
+FACT			= FAKULTET			##	Returnerer et tals fakultet
+FACTDOUBLE		= DOBBELT.FAKULTET		##	Returnerer et tals dobbelte fakultet
+FLOOR			= AFRUND.GULV			##	Runder et tal ned mod nul
+GCD			= STØRSTE.FÆLLES.DIVISOR	##	Returnerer den største fælles divisor
+INT			= HELTAL			##	Nedrunder et tal til det nærmeste heltal
+LCM			= MINDSTE.FÆLLES.MULTIPLUM	##	Returnerer det mindste fælles multiplum
+LN			= LN				##	Returnerer et tals naturlige logaritme
+LOG			= LOG				##	Returnerer logaritmen for et tal på grundlag af et angivet grundtal
+LOG10			= LOG10				##	Returnerer titalslogaritmen af et tal
+MDETERM			= MDETERM			##	Returnerer determinanten for en matrix
+MINVERSE		= MINVERT			##	Returnerer den inverse matrix for en matrix
+MMULT			= MPRODUKT			##	Returnerer matrixproduktet af to matrixer
+MOD			= REST				##	Returnerer restværdien fra division
+MROUND			= MAFRUND			##	Returnerer et tal afrundet til det ønskede multiplum
+MULTINOMIAL		= MULTINOMIAL			##	Returnerer et multinomialt talsæt
+ODD			= ULIGE				##	Runder et tal op til nærmeste ulige heltal
+PI			= PI				##	Returnerer værdien af pi
+POWER			= POTENS			##	Returnerer resultatet af et tal opløftet til en potens
+PRODUCT			= PRODUKT			##	Multiplicerer argumenterne
+QUOTIENT		= KVOTIENT			##	Returnerer heltalsdelen ved division
+RADIANS			= RADIANER			##	Konverterer grader til radianer
+RAND			= SLUMP				##	Returnerer et tilfældigt tal mellem 0 og 1
+RANDBETWEEN		= SLUMP.MELLEM			##	Returnerer et tilfældigt tal mellem de tal, der angives
+ROMAN			= ROMERTAL			##	Konverterer et arabertal til romertal som tekst
+ROUND			= AFRUND			##	Afrunder et tal til et angivet antal decimaler
+ROUNDDOWN		= RUND.NED			##	Runder et tal ned mod nul
+ROUNDUP			= RUND.OP			##	Runder et tal op, væk fra 0 (nul)
+SERIESSUM		= SERIESUM			##	Returnerer summen af en potensserie baseret på en formel
+SIGN			= FORTEGN			##	Returnerer et tals fortegn
+SIN			= SIN				##	Returnerer en given vinkels sinusværdi
+SINH			= SINH				##	Returnerer den hyperbolske sinus af et tal
+SQRT			= KVROD				##	Returnerer en positiv kvadratrod
+SQRTPI			= KVRODPI			##	Returnerer kvadratroden af (tal * pi;)
+SUBTOTAL		= SUBTOTAL			##	Returnerer en subtotal på en liste eller i en database
+SUM			= SUM				##	Lægger argumenterne sammen
+SUMIF			= SUM.HVIS			##	Lægger de celler sammen, der er specificeret af et givet kriterium.
+SUMIFS			= SUM.HVISER			##	Lægger de celler i et område sammen, der opfylder flere kriterier.
+SUMPRODUCT		= SUMPRODUKT			##	Returnerer summen af produkter af ens matrixkomponenter
+SUMSQ			= SUMKV				##	Returnerer summen af argumenternes kvadrater
+SUMX2MY2		= SUMX2MY2			##	Returnerer summen af differensen mellem kvadrater af ens værdier i to matrixer
+SUMX2PY2		= SUMX2PY2			##	Returnerer summen af summen af kvadrater af tilsvarende værdier i to matrixer
+SUMXMY2			= SUMXMY2			##	Returnerer summen af kvadrater af differenser mellem ens værdier i to matrixer
+TAN			= TAN				##	Returnerer et tals tangens
+TANH			= TANH				##	Returnerer et tals hyperbolske tangens
+TRUNC			= AFKORT			##	Afkorter et tal til et heltal
+
+
+##
+##	Statistical functions				Statistiske funktioner
+##
+AVEDEV			= MAD				##	Returnerer den gennemsnitlige numeriske afvigelse fra stikprøvens middelværdi
+AVERAGE			= MIDDEL			##	Returnerer middelværdien af argumenterne
+AVERAGEA		= MIDDELV			##	Returnerer middelværdien af argumenterne og medtager tal, tekst og logiske værdier
+AVERAGEIF		= MIDDEL.HVIS			##	Returnerer gennemsnittet (den aritmetiske middelværdi) af alle de celler, der opfylder et givet kriterium, i et område
+AVERAGEIFS		= MIDDEL.HVISER			##	Returnerer gennemsnittet (den aritmetiske middelværdi) af alle de celler, der opfylder flere kriterier.
+BETADIST		= BETAFORDELING			##	Returnerer den kumulative betafordelingsfunktion
+BETAINV			= BETAINV			##	Returnerer den inverse kumulative fordelingsfunktion for en angivet betafordeling
+BINOMDIST		= BINOMIALFORDELING		##	Returnerer punktsandsynligheden for binomialfordelingen
+CHIDIST			= CHIFORDELING			##	Returnerer fraktilsandsynligheden for en chi2-fordeling
+CHIINV			= CHIINV			##	Returnerer den inverse fraktilsandsynlighed for en chi2-fordeling
+CHITEST			= CHITEST			##	Foretager en test for uafhængighed
+CONFIDENCE		= KONFIDENSINTERVAL		##	Returnerer et konfidensinterval for en population
+CORREL			= KORRELATION			##	Returnerer korrelationskoefficienten mellem to datasæt
+COUNT			= TÆL				##	Tæller antallet af tal på en liste med argumenter
+COUNTA			= TÆLV				##	Tæller antallet af værdier på en liste med argumenter
+COUNTBLANK		= ANTAL.BLANKE			##	Tæller antallet af tomme celler i et område
+COUNTIF			= TÆLHVIS			##	Tæller antallet af celler, som opfylder de givne kriterier, i et område
+COUNTIFS		= TÆL.HVISER			##	Tæller antallet af de celler, som opfylder flere kriterier, i et område
+COVAR			= KOVARIANS			##	Beregner kovariansen mellem to stokastiske variabler
+CRITBINOM		= KRITBINOM			##	Returnerer den mindste værdi for x, for hvilken det gælder, at fordelingsfunktionen er mindre end eller lig med kriterieværdien.
+DEVSQ			= SAK				##	Returnerer summen af de kvadrerede afvigelser fra middelværdien
+EXPONDIST		= EKSPFORDELING			##	Returnerer eksponentialfordelingen
+FDIST			= FFORDELING			##	Returnerer fraktilsandsynligheden for F-fordelingen
+FINV			= FINV				##	Returnerer den inverse fraktilsandsynlighed for F-fordelingen
+FISHER			= FISHER			##	Returnerer Fisher-transformationen
+FISHERINV		= FISHERINV			##	Returnerer den inverse Fisher-transformation
+FORECAST		= PROGNOSE			##	Returnerer en prognoseværdi baseret på lineær tendens
+FREQUENCY		= FREKVENS			##	Returnerer en frekvensfordeling i en søjlevektor
+FTEST			= FTEST				##	Returnerer resultatet af en F-test til sammenligning af varians
+GAMMADIST		= GAMMAFORDELING		##	Returnerer fordelingsfunktionen for gammafordelingen
+GAMMAINV		= GAMMAINV			##	Returnerer den inverse fordelingsfunktion for gammafordelingen
+GAMMALN			= GAMMALN			##	Returnerer den naturlige logaritme til gammafordelingen, G(x)
+GEOMEAN			= GEOMIDDELVÆRDI		##	Returnerer det geometriske gennemsnit
+GROWTH			= FORØGELSE			##	Returnerer værdier langs en eksponentiel tendens
+HARMEAN			= HARMIDDELVÆRDI		##	Returnerer det harmoniske gennemsnit
+HYPGEOMDIST		= HYPGEOFORDELING		##	Returnerer punktsandsynligheden i en hypergeometrisk fordeling
+INTERCEPT		= SKÆRING			##	Returnerer afskæringsværdien på y-aksen i en lineær regression
+KURT			= TOPSTEJL			##	Returnerer kurtosisværdien for en stokastisk variabel
+LARGE			= STOR				##	Returnerer den k'te største værdi i et datasæt
+LINEST			= LINREGR			##	Returnerer parameterestimaterne for en lineær tendens
+LOGEST			= LOGREGR			##	Returnerer parameterestimaterne for en eksponentiel tendens
+LOGINV			= LOGINV			##	Returnerer den inverse fordelingsfunktion for lognormalfordelingen
+LOGNORMDIST		= LOGNORMFORDELING		##	Returnerer fordelingsfunktionen for lognormalfordelingen
+MAX			= MAKS				##	Returnerer den maksimale værdi på en liste med argumenter.
+MAXA			= MAKSV				##	Returnerer den maksimale værdi på en liste med argumenter og medtager tal, tekst og logiske værdier
+MEDIAN			= MEDIAN			##	Returnerer medianen for de angivne tal
+MIN			= MIN				##	Returnerer den mindste værdi på en liste med argumenter.
+MINA			= MINV				##	Returnerer den mindste værdi på en liste med argumenter og medtager tal, tekst og logiske værdier
+MODE			= HYPPIGST			##	Returnerer den hyppigste værdi i et datasæt
+NEGBINOMDIST		= NEGBINOMFORDELING		##	Returnerer den negative binomialfordeling
+NORMDIST		= NORMFORDELING			##	Returnerer fordelingsfunktionen for normalfordelingen
+NORMINV			= NORMINV			##	Returnerer den inverse fordelingsfunktion for normalfordelingen
+NORMSDIST		= STANDARDNORMFORDELING		##	Returnerer fordelingsfunktionen for standardnormalfordelingen
+NORMSINV		= STANDARDNORMINV		##	Returnerer den inverse fordelingsfunktion for standardnormalfordelingen
+PEARSON			= PEARSON			##	Returnerer Pearsons korrelationskoefficient
+PERCENTILE		= FRAKTIL			##	Returnerer den k'te fraktil for datasættet
+PERCENTRANK		= PROCENTPLADS			##	Returnerer den procentuelle rang for en given værdi i et datasæt
+PERMUT			= PERMUT			##	Returnerer antallet af permutationer for et givet sæt objekter
+POISSON			= POISSON			##	Returnerer fordelingsfunktionen for en Poisson-fordeling
+PROB			= SANDSYNLIGHED			##	Returnerer intervalsandsynligheden
+QUARTILE		= KVARTIL			##	Returnerer kvartilen i et givet datasæt
+RANK			= PLADS				##	Returnerer rangen for et tal på en liste med tal
+RSQ			= FORKLARINGSGRAD		##	Returnerer R2-værdien fra en simpel lineær regression
+SKEW			= SKÆVHED			##	Returnerer skævheden for en stokastisk variabel
+SLOPE			= HÆLDNING			##	Returnerer estimatet på hældningen fra en simpel lineær regression
+SMALL			= MINDSTE			##	Returnerer den k'te mindste værdi i datasættet
+STANDARDIZE		= STANDARDISER			##	Returnerer en standardiseret værdi
+STDEV			= STDAFV			##	Estimerer standardafvigelsen på basis af en stikprøve
+STDEVA			= STDAFVV			##	Beregner standardafvigelsen på basis af en prøve og medtager tal, tekst og logiske værdier
+STDEVP			= STDAFVP			##	Beregner standardafvigelsen på basis af en hel population
+STDEVPA			= STDAFVPV			##	Beregner standardafvigelsen på basis af en hel population og medtager tal, tekst og logiske værdier
+STEYX			= STFYX				##	Returnerer standardafvigelsen for de estimerede y-værdier i den simple lineære regression
+TDIST			= TFORDELING			##	Returnerer fordelingsfunktionen for Student's t-fordeling
+TINV			= TINV				##	Returnerer den inverse fordelingsfunktion for Student's t-fordeling
+TREND			= TENDENS			##	Returnerer værdi under antagelse af en lineær tendens
+TRIMMEAN		= TRIMMIDDELVÆRDI		##	Returnerer den trimmede middelværdi for datasættet
+TTEST			= TTEST				##	Returnerer den sandsynlighed, der er forbundet med Student's t-test
+VAR			= VARIANS			##	Beregner variansen på basis af en prøve
+VARA			= VARIANSV			##	Beregner variansen på basis af en prøve og medtager tal, tekst og logiske værdier
+VARP			= VARIANSP			##	Beregner variansen på basis af hele populationen
+VARPA			= VARIANSPV			##	Beregner variansen på basis af hele populationen og medtager tal, tekst og logiske værdier
+WEIBULL			= WEIBULL			##	Returnerer fordelingsfunktionen for Weibull-fordelingen
+ZTEST			= ZTEST				##	Returnerer sandsynlighedsværdien ved en en-sidet z-test
+
+
+##
+##	Text functions					Tekstfunktioner
+##
+ASC			= ASC				##	Ændrer engelske tegn i fuld bredde (dobbelt-byte) eller katakana i en tegnstreng til tegn i halv bredde (enkelt-byte)
+BAHTTEXT		= BAHTTEKST			##	Konverterer et tal til tekst ved hjælp af valutaformatet ß (baht)
+CHAR			= TEGN				##	Returnerer det tegn, der svarer til kodenummeret
+CLEAN			= RENS				##	Fjerner alle tegn, der ikke kan udskrives, fra tekst
+CODE			= KODE				##	Returnerer en numerisk kode for det første tegn i en tekststreng
+CONCATENATE		= SAMMENKÆDNING			##	Sammenkæder adskillige tekstelementer til �t tekstelement
+DOLLAR			= KR				##	Konverterer et tal til tekst ved hjælp af valutaformatet kr. (kroner)
+EXACT			= EKSAKT			##	Kontrollerer, om to tekstværdier er identiske
+FIND			= FIND				##	Søger efter en tekstværdi i en anden tekstværdi (der skelnes mellem store og små bogstaver)
+FINDB			= FINDB				##	Søger efter en tekstværdi i en anden tekstværdi (der skelnes mellem store og små bogstaver)
+FIXED			= FAST				##	Formaterer et tal som tekst med et fast antal decimaler
+JIS			= JIS				##	Ændrer engelske tegn i halv bredde (enkelt-byte) eller katakana i en tegnstreng til tegn i fuld bredde (dobbelt-byte)
+LEFT			= VENSTRE			##	Returnerer tegnet længst til venstre i en tekstværdi
+LEFTB			= VENSTREB			##	Returnerer tegnet længst til venstre i en tekstværdi
+LEN			= LÆNGDE			##	Returnerer antallet af tegn i en tekststreng
+LENB			= LÆNGDEB			##	Returnerer antallet af tegn i en tekststreng
+LOWER			= SMÅ.BOGSTAVER			##	Konverterer tekst til små bogstaver
+MID			= MIDT				##	Returnerer et bestemt antal tegn fra en tekststreng fra og med den angivne startposition
+MIDB			= MIDTB				##	Returnerer et bestemt antal tegn fra en tekststreng fra og med den angivne startposition
+PHONETIC		= FONETISK			##	Uddrager de fonetiske (furigana) tegn fra en tekststreng
+PROPER			= STORT.FORBOGSTAV		##	Konverterer første bogstav i hvert ord i teksten til stort bogstav
+REPLACE			= ERSTAT			##	Erstatter tegn i tekst
+REPLACEB		= ERSTATB			##	Erstatter tegn i tekst
+REPT			= GENTAG			##	Gentager tekst et givet antal gange
+RIGHT			= HØJRE				##	Returnerer tegnet længste til højre i en tekstværdi
+RIGHTB			= HØJREB			##	Returnerer tegnet længste til højre i en tekstværdi
+SEARCH			= SØG				##	Søger efter en tekstværdi i en anden tekstværdi (der skelnes ikke mellem store og små bogstaver)
+SEARCHB			= SØGB				##	Søger efter en tekstværdi i en anden tekstværdi (der skelnes ikke mellem store og små bogstaver)
+SUBSTITUTE		= UDSKIFT			##	Udskifter gammel tekst med ny tekst i en tekststreng
+T			= T				##	Konverterer argumenterne til tekst
+TEXT			= TEKST				##	Formaterer et tal og konverterer det til tekst
+TRIM			= FJERN.OVERFLØDIGE.BLANKE	##	Fjerner mellemrum fra tekst
+UPPER			= STORE.BOGSTAVER		##	Konverterer tekst til store bogstaver
+VALUE			= VÆRDI				##	Konverterer et tekstargument til et tal

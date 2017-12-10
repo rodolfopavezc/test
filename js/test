@@ -1,0 +1,5 @@
+INSERT INTO ap_nivel_dificultad VALUES ('1', 'Muy Fácil');
+INSERT INTO ap_nivel_dificultad VALUES ('2', 'Fácil');
+INSERT INTO ap_nivel_dificultad VALUES ('3', 'Normal');
+INSERT INTO ap_nivel_dificultad VALUES ('4', 'Difícil');
+INSERT INTO ap_nivel_dificultad VALUES ('5', 'Muy Difícil');

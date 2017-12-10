@@ -1,0 +1,438 @@
+ï»¿##
+## PHPExcel
+##
+## Copyright (c) 2006 - 2011 PHPExcel
+##
+## This library is free software; you can redistribute it and/or
+## modify it under the terms of the GNU Lesser General Public
+## License as published by the Free Software Foundation; either
+## version 2.1 of the License, or (at your option) any later version.
+##
+## This library is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+## Lesser General Public License for more details.
+##
+## You should have received a copy of the GNU Lesser General Public
+## License along with this library; if not, write to the Free Software
+## Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+##
+## @category   PHPExcel
+## @package    PHPExcel_Calculation
+## @copyright  Copyright (c) 2006 - 2011 PHPExcel (http://www.codeplex.com/PHPExcel)
+## @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
+## @version    1.7.8, 2012-10-12
+##
+## Data in this file derived from http://www.piuha.fi/excel-function-name-translation/
+##
+##
+
+
+##
+##	Add-in and Automation functions			BÅ‘vítmények és automatizálási fÃ¼ggvények
+##
+GETPIVOTDATA		= KIMUTATÁSADATOT.VESZ		##	A kimutatásokban tárolt adatok visszaadására használható.
+
+
+##
+##	Cube functions KockafÃ¼ggvények   
+##
+CUBEKPIMEMBER		= KOCKA.FÅTELJMUT		##	Egy fÅ‘ teljesítménymutató (KPI) nevét, tulajdonságát és mértékegységét adja eredményÃ¼l, a nevet és a tulajdonságot megjeleníti a cellában. A KPI-k számszerÅ±síthetÅ‘ mérési lehetÅ‘séget jelentenek â€“ ilyen mutató például a havi bruttó nyereség vagy az egy alkalmazottra jutó negyedéves forgalom â€“, egy szervezet teljesítményének nyomonkÃ¶vetésére használhatók.
+CUBEMEMBER		= KOCKA.TAG			##	Kockahierachia tagját vagy rekordját adja eredményÃ¼l. EllenÅ‘rizhetÅ‘ vele, hogy szerepel-e a kockában az adott tag vagy rekord.
+CUBEMEMBERPROPERTY	= KOCKA.TAG.TUL			##	A kocka egyik tagtulajdonságának értékét adja eredményÃ¼l. Használatával ellenÅ‘rizhetÅ‘, hogy szerepel-e egy tagnév a kockában, eredménye pedig az erre a tagra vonatkozó, megadott tulajdonság.
+CUBERANKEDMEMBER	= KOCKA.HALM.ELEM		##	Egy halmaz rangsor szerinti n-edik tagját adja eredményÃ¼l. Használatával egy halmaz egy vagy tÃ¶bb elemét kaphatja meg, például a legnagyobb teljesítményÅ± Ã¼zletkÃ¶tÅ‘t vagy a 10 legjobb tanulót.
+CUBESET			= KOCKA.HALM			##	Számított tagok vagy rekordok halmazát adja eredményÃ¼l, ehhez egy beállított kifejezést elkÃ¼ld a kiszolgálón található kockának, majd ezt a halmazt adja vissza a Microsoft Office Excel alkalmazásnak.
+CUBESETCOUNT		= KOCKA.HALM.DB			##	Egy halmaz elemszámát adja eredményÃ¼l.
+CUBEVALUE		= KOCKA.ÉRTÉK			##	Kockából Ã¶sszesített értéket ad eredményÃ¼l.
+
+
+##
+##	Database functions				Adatbázis-kezelÅ‘ fÃ¼ggvények
+##
+DAVERAGE		= AB.ÁTLAG			##	A kijelÃ¶lt adatbáziselemek átlagát számítja ki.
+DCOUNT			= AB.DARAB			##	Megszámolja, hogy az adatbázisban hány cella tartalmaz számokat.
+DCOUNTA			= AB.DARAB2			##	Megszámolja az adatbázisban lévÅ‘ nem Ã¼res cellákat.
+DGET			= AB.MEZÅ			##	Egy adatbázisból egyetlen olyan rekordot ad vissza, amely megfelel a megadott feltételeknek.
+DMAX			= AB.MAX			##	A kiválasztott adatbáziselemek kÃ¶zÃ¼l a legnagyobb értéket adja eredményÃ¼l.
+DMIN			= AB.MIN			##	A kijelÃ¶lt adatbáziselemek kÃ¶zÃ¼l a legkisebb értéket adja eredményÃ¼l.
+DPRODUCT		= AB.SZORZAT			##	Az adatbázis megadott feltételeknek eleget tevÅ‘ rekordjaira Ã¶sszeszorozza a megadott mezÅ‘ben található számértékeket, és eredményÃ¼l ezt a szorzatot adja.
+DSTDEV			= AB.SZÓRÁS			##	A kijelÃ¶lt adatbáziselemek egy mintája alapján megbecsÃ¼li a szórást.
+DSTDEVP			= AB.SZÓRÁS2			##	A kijelÃ¶lt adatbáziselemek teljes sokasága alapján kiszámítja a szórást.
+DSUM			= AB.SZUM			##	Ã–sszeadja a feltételnek megfelelÅ‘ adatbázisrekordok mezÅ‘oszlopában a számokat.
+DVAR			= AB.VAR			##	A kijelÃ¶lt adatbáziselemek mintája alapján becslést ad a szórásnégyzetre.
+DVARP			= AB.VAR2			##	A kijelÃ¶lt adatbáziselemek teljes sokasága alapján kiszámítja a szórásnégyzetet.
+
+
+##
+##	Date and time functions				DátumfÃ¼ggvények
+##
+DATE			= DÁTUM				##	Adott dátum dátumértékét adja eredményÃ¼l.
+DATEVALUE		= DÁTUMÉRTÉK			##	SzÃ¶vegként megadott dátumot dátumértékké alakít át.
+DAY			= NAP				##	Dátumértéket a hónap egy napjává (0-31) alakít.
+DAYS360			= NAP360			##	Két dátum kÃ¶zé esÅ‘ napok számát számítja ki a 360 napos év alapján.
+EDATE			= EDATE				##	Adott dátumnál adott számú hónappal korábbi vagy késÅ‘bbi dátum dátumértékét adja eredményÃ¼l.
+EOMONTH			= EOMONTH			##	Adott dátumnál adott számú hónappal korábbi vagy késÅ‘bbi hónap utolsó napjának dátumértékét adja eredményÃ¼l.
+HOUR			= ÓRA				##	IdÅ‘értéket órákká alakít.
+MINUTE			= PERC				##	IdÅ‘értéket percekké alakít.
+MONTH			= HÓNAP				##	IdÅ‘értéket hónapokká alakít.
+NETWORKDAYS		= NETWORKDAYS			##	Két dátum kÃ¶zÃ¶tt a teljes munkanapok számát adja meg.
+NOW			= MOST				##	A napi dátum dátumértékét és a pontos idÅ‘ idÅ‘értékét adja eredményÃ¼l.
+SECOND			= MPERC				##	IdÅ‘értéket másodpercekké alakít át.
+TIME			= IDÅ				##	Adott idÅ‘pont idÅ‘értékét adja meg.
+TIMEVALUE		= IDÅÉRTÉK			##	SzÃ¶vegként megadott idÅ‘pontot idÅ‘értékké alakít át.
+TODAY			= MA				##	A napi dátum dátumértékét adja eredményÃ¼l.
+WEEKDAY			= HÉT.NAPJA			##	Dátumértéket a hét napjává alakítja át.
+WEEKNUM			= WEEKNUM			##	Visszatérési értéke egy szám, amely azt mutatja meg, hogy a megadott dátum az év hányadik hetére esik.
+WORKDAY			= WORKDAY			##	Adott dátumnál adott munkanappal korábbi vagy késÅ‘bbi dátum dátumértékét adja eredményÃ¼l.
+YEAR			= ÉV				##	Sorszámot évvé alakít át.
+YEARFRAC		= YEARFRAC			##	Az adott dátumok kÃ¶zÃ¶tti teljes napok számát tÃ¶rtévként adja meg.
+
+
+##
+##	Engineering functions				MérnÃ¶ki fÃ¼ggvények
+##
+BESSELI			= BESSELI			##	Az In(x) módosított Bessel-fÃ¼ggvény értékét adja eredményÃ¼l.
+BESSELJ			= BESSELJ			##	A Jn(x) Bessel-fÃ¼ggvény értékét adja eredményÃ¼l.
+BESSELK			= BESSELK			##	A Kn(x) módosított Bessel-fÃ¼ggvény értékét adja eredményÃ¼l.
+BESSELY			= BESSELY			##	Az Yn(x) módosított Bessel-fÃ¼ggvény értékét adja eredményÃ¼l.
+BIN2DEC			= BIN2DEC			##	Bináris számot decimálissá alakít át.
+BIN2HEX			= BIN2HEX			##	Bináris számot hexadecimálissá alakít át.
+BIN2OCT			= BIN2OCT			##	Bináris számot oktálissá alakít át.
+COMPLEX			= COMPLEX			##	Valós és képzetes részbÅ‘l komplex számot képez.
+CONVERT			= CONVERT			##	Mértékegységeket vált át.
+DEC2BIN			= DEC2BIN			##	Decimális számot binárissá alakít át.
+DEC2HEX			= DEC2HEX			##	Decimális számot hexadecimálissá alakít át.
+DEC2OCT			= DEC2OCT			##	Decimális számot oktálissá alakít át.
+DELTA			= DELTA				##	Azt vizsgálja, hogy két érték egyenlÅ‘-e.
+ERF			= ERF				##	A hibafÃ¼ggvény értékét adja eredményÃ¼l.
+ERFC			= ERFC				##	A kiegészített hibafÃ¼ggvény értékét adja eredményÃ¼l.
+GESTEP			= GESTEP			##	Azt vizsgálja, hogy egy szám nagyobb-e adott kÃ¼szÃ¶bértéknél.
+HEX2BIN			= HEX2BIN			##	Hexadecimális számot binárissá alakít át.
+HEX2DEC			= HEX2DEC			##	Hexadecimális számot decimálissá alakít át.
+HEX2OCT			= HEX2OCT			##	Hexadecimális számot oktálissá alakít át.
+IMABS			= IMABS				##	Komplex szám abszolút értékét (modulusát) adja eredményÃ¼l.
+IMAGINARY		= IMAGINARY			##	Komplex szám képzetes részét adja eredményÃ¼l.
+IMARGUMENT		= IMARGUMENT			##	A komplex szám radiánban kifejezett théta argumentumát adja eredményÃ¼l.
+IMCONJUGATE		= IMCONJUGATE			##	Komplex szám komplex konjugáltját adja eredményÃ¼l.
+IMCOS			= IMCOS				##	Komplex szám koszinuszát adja eredményÃ¼l.
+IMDIV			= IMDIV				##	Két komplex szám hányadosát adja eredményÃ¼l.
+IMEXP			= IMEXP				##	Az e szám komplex kitevÅ‘jÅ± hatványát adja eredményÃ¼l.
+IMLN			= IMLN				##	Komplex szám természetes logaritmusát adja eredményÃ¼l.
+IMLOG10			= IMLOG10			##	Komplex szám tízes alapú logaritmusát adja eredményÃ¼l.
+IMLOG2			= IMLOG2			##	Komplex szám kettes alapú logaritmusát adja eredményÃ¼l.
+IMPOWER			= IMPOWER			##	Komplex szám hatványát adja eredményÃ¼l.
+IMPRODUCT		= IMPRODUCT			##	Komplex számok szorzatát adja eredményÃ¼l.
+IMREAL			= IMREAL			##	Komplex szám valós részét adja eredményÃ¼l.
+IMSIN			= IMSIN				##	Komplex szám szinuszát adja eredményÃ¼l.
+IMSQRT			= IMSQRT			##	Komplex szám négyzetgyÃ¶két adja eredményÃ¼l.
+IMSUB			= IMSUB				##	Két komplex szám kÃ¼lÃ¶nbségét adja eredményÃ¼l.
+IMSUM			= IMSUM				##	Komplex számok Ã¶sszegét adja eredményÃ¼l.
+OCT2BIN			= OCT2BIN			##	Oktális számot binárissá alakít át.
+OCT2DEC			= OCT2DEC			##	Oktális számot decimálissá alakít át.
+OCT2HEX			= OCT2HEX			##	Oktális számot hexadecimálissá alakít át.
+
+
+##
+##	Financial functions				PénzÃ¼gyi fÃ¼ggvények
+##
+ACCRINT			= ACCRINT			##	Periodikusan kamatozó értékpapír felszaporodott kamatát adja eredményÃ¼l.
+ACCRINTM		= ACCRINTM			##	Lejáratkor kamatozó értékpapír felszaporodott kamatát adja eredményÃ¼l.
+AMORDEGRC		= AMORDEGRC			##	ÁllóeszkÃ¶z lineáris értékcsÃ¶kkenését adja meg az egyes kÃ¶nyvelési idÅ‘szakokra vonatkozóan.
+AMORLINC		= AMORLINC			##	Az egyes kÃ¶nyvelési idÅ‘szakokban az értékcsÃ¶kkenést adja meg.
+COUPDAYBS		= COUPDAYBS			##	A szelvényidÅ‘szak kezdetétÅ‘l a kifizetés idÅ‘pontjáig eltelt napokat adja vissza.
+COUPDAYS		= COUPDAYS			##	A kifizetés idÅ‘pontját magában foglaló szelvényperiódus hosszát adja meg napokban.
+COUPDAYSNC		= COUPDAYSNC			##	A kifizetés idÅ‘pontja és a legkÃ¶zelebbi szelvénydátum kÃ¶zÃ¶tti napok számát adja meg.
+COUPNCD			= COUPNCD			##	A kifizetést kÃ¶vetÅ‘ legelsÅ‘ szelvénydátumot adja eredményÃ¼l.
+COUPNUM			= COUPNUM			##	A kifizetés és a lejárat idÅ‘pontja kÃ¶zÃ¶tt kifizetendÅ‘ szelvények számát adja eredményÃ¼l.
+COUPPCD			= COUPPCD			##	A kifizetés elÅ‘tti utolsó szelvénydátumot adja eredményÃ¼l.
+CUMIPMT			= CUMIPMT			##	Két fizetési idÅ‘szak kÃ¶zÃ¶tt kifizetett kamat halmozott értékét adja eredményÃ¼l.
+CUMPRINC		= CUMPRINC			##	Két fizetési idÅ‘szak kÃ¶zÃ¶tt kifizetett részletek halmozott (kamatot nem tartalmazó) értékét adja eredményÃ¼l.
+DB			= KCS2				##	EszkÃ¶z adott idÅ‘szak alatti értékcsÃ¶kkenését számítja ki a lineáris leírási modell alkalmazásával.
+DDB			= KCSA				##	EszkÃ¶z értékcsÃ¶kkenését számítja ki adott idÅ‘szakra vonatkozóan a progresszív vagy egyéb megadott leírási modell alkalmazásával.
+DISC			= DISC				##	Értékpapír leszámítolási kamatlábát adja eredményÃ¼l.
+DOLLARDE		= DOLLARDE			##	Egy kÃ¶zÃ¶nséges tÃ¶rtként megadott számot tizedes tÃ¶rtté alakít át.
+DOLLARFR		= DOLLARFR			##	Tizedes tÃ¶rtként megadott számot kÃ¶zÃ¶nséges tÃ¶rtté alakít át.
+DURATION		= DURATION			##	Periodikus kamatfizetésÅ± értékpapír éves kamatérzékenységét adja eredményÃ¼l.
+EFFECT			= EFFECT			##	Az éves tényleges kamatláb értékét adja eredményÃ¼l.
+FV			= JBÉ				##	Befektetés jÃ¶vÅ‘beli értékét számítja ki.
+FVSCHEDULE		= FVSCHEDULE			##	A kezdÅ‘tÅ‘ke adott kamatlábak szerint megnÃ¶velt jÃ¶vÅ‘beli értékét adja eredményÃ¼l.
+INTRATE			= INTRATE			##	A lejáratig teljesen lekÃ¶tÃ¶tt értékpapír kamatrátáját adja eredményÃ¼l.
+IPMT			= RRÉSZLET			##	HiteltÃ¶rlesztésen belÃ¼l a tÅ‘ketÃ¶rlesztés nagyságát számítja ki adott idÅ‘szakra.
+IRR			= BMR				##	A befektetés belsÅ‘ megtérÃ¼lési rátáját számítja ki pénzáramláshoz.
+ISPMT			= LRÉSZLETKAMAT			##	A befektetés adott idÅ‘szakára fizetett kamatot számítja ki.
+MDURATION		= MDURATION			##	Egy 100 Ft névértékÅ± értékpapír Macauley-féle módosított kamatérzékenységét adja eredményÃ¼l.
+MIRR			= MEGTÉRÃœLÉS			##	A befektetés belsÅ‘ megtérÃ¼lési rátáját számítja ki a kÃ¶ltségek és a bevételek kÃ¼lÃ¶nbÃ¶zÅ‘ kamatlába mellett.
+NOMINAL			= NOMINAL			##	Az éves névleges kamatláb értékét adja eredményÃ¼l.
+NPER			= PER.SZÁM			##	A tÃ¶rlesztési idÅ‘szakok számát adja meg.
+NPV			= NMÉ				##	Befektetéshez kapcsolódó pénzáramlás nettó jelenértékét számítja ki ismert pénzáramlás és kamatláb mellett.
+ODDFPRICE		= ODDFPRICE			##	Egy 100 Ft névértékÅ±, a futamidÅ‘ elején tÃ¶redék-idÅ‘szakos értékpapír árát adja eredményÃ¼l.
+ODDFYIELD		= ODDFYIELD			##	A futamidÅ‘ elején tÃ¶redék-idÅ‘szakos értékpapír hozamát adja eredményÃ¼l.
+ODDLPRICE		= ODDLPRICE			##	Egy 100 Ft névértékÅ±, a futamidÅ‘ végén tÃ¶redék-idÅ‘szakos értékpapír árát adja eredményÃ¼l.
+ODDLYIELD		= ODDLYIELD			##	A futamidÅ‘ végén tÃ¶redék-idÅ‘szakos értékpapír hozamát adja eredményÃ¼l.
+PMT			= RÉSZLET			##	A tÃ¶rlesztési idÅ‘szakra vonatkozó tÃ¶rlesztési Ã¶sszeget számítja ki.
+PPMT			= PRÉSZLET			##	HiteltÃ¶rlesztésen belÃ¼l a tÅ‘ketÃ¶rlesztés nagyságát számítja ki adott idÅ‘szakra.
+PRICE			= PRICE				##	Egy 100 Ft névértékÅ±, periodikusan kamatozó értékpapír árát adja eredményÃ¼l.
+PRICEDISC		= PRICEDISC			##	Egy 100 Ft névértékÅ± leszámítolt értékpapír árát adja eredményÃ¼l.
+PRICEMAT		= PRICEMAT			##	Egy 100 Ft névértékÅ±, a lejáratkor kamatozó értékpapír árát adja eredményÃ¼l.
+PV			= MÉ				##	Befektetés jelenlegi értékét számítja ki.
+RATE			= RÁTA				##	Egy tÃ¶rlesztési idÅ‘szakban az egy idÅ‘szakra esÅ‘ kamatláb nagyságát számítja ki.
+RECEIVED		= RECEIVED			##	A lejáratig teljesen lekÃ¶tÃ¶tt értékpapír lejáratakor kapott Ã¶sszegét adja eredményÃ¼l.
+SLN			= LCSA				##	Tárgyi eszkÃ¶z egy idÅ‘szakra esÅ‘ amortizációját adja meg bruttó érték szerinti lineáris leírási kulcsot alkalmazva.
+SYD			= SYD				##	Tárgyi eszkÃ¶z értékcsÃ¶kkenését számítja ki adott idÅ‘szakra az évek számjegyÃ¶sszegével dolgozó módszer alapján.
+TBILLEQ			= TBILLEQ			##	Kincstárjegy kÃ¶tvény-egyenértékÅ± hozamát adja eredményÃ¼l.
+TBILLPRICE		= TBILLPRICE			##	Egy 100 Ft névértékÅ± kincstárjegy árát adja eredményÃ¼l.
+TBILLYIELD		= TBILLYIELD			##	Kincstárjegy hozamát adja eredményÃ¼l.
+VDB			= ÉCSRI				##	Tárgyi eszkÃ¶z amortizációját számítja ki megadott vagy részidÅ‘szakra a csÃ¶kkenÅ‘ egyenleg módszerének alkalmazásával.
+XIRR			= XIRR				##	Ãœtemezett készpénzforgalom (cash flow) belsÅ‘ megtérÃ¼lési kamatrátáját adja eredményÃ¼l.
+XNPV			= XNPV				##	Ãœtemezett készpénzforgalom (cash flow) nettó jelenlegi értékét adja eredményÃ¼l.
+YIELD			= YIELD				##	Periodikusan kamatozó értékpapír hozamát adja eredményÃ¼l.
+YIELDDISC		= YIELDDISC			##	Leszámítolt értékpapír (például kincstárjegy) éves hozamát adja eredményÃ¼l.
+YIELDMAT		= YIELDMAT			##	Lejáratkor kamatozó értékpapír éves hozamát adja eredményÃ¼l.
+
+
+##
+##	Information functions				Információs fÃ¼ggvények
+##
+CELL			= CELLA				##	Egy cella formátumára, elhelyezkedésére vagy tartalmára vonatkozó adatokat ad eredményÃ¼l.
+ERROR.TYPE		= HIBA.TÍPUS			##	Egy hibatípushoz tartozó számot ad eredményÃ¼l.
+INFO			= INFÓ				##	A rendszer- és munkakÃ¶rnyezet pillanatnyi állapotáról ad felvilágosítást.
+ISBLANK			= ÃœRES				##	Eredménye IGAZ, ha az érték Ã¼res.
+ISERR			= HIBA				##	Eredménye IGAZ, ha az érték valamelyik hibaérték a #HIÁNYZIK kivételével.
+ISERROR			= HIBÁS				##	Eredménye IGAZ, ha az érték valamelyik hibaérték.
+ISEVEN			= ISEVEN			##	Eredménye IGAZ, ha argumentuma páros szám.
+ISLOGICAL		= LOGIKAI			##	Eredménye IGAZ, ha az érték logikai érték.
+ISNA			= NINCS				##	Eredménye IGAZ, ha az érték a #HIÁNYZIK hibaérték.
+ISNONTEXT		= NEM.SZÃ–VEG			##	Eredménye IGAZ, ha az érték nem szÃ¶veg.
+ISNUMBER		= SZÁM				##	Eredménye IGAZ, ha az érték szám.
+ISODD			= ISODD				##	Eredménye IGAZ, ha argumentuma páratlan szám.
+ISREF			= HIVATKOZÁS			##	Eredménye IGAZ, ha az érték hivatkozás.
+ISTEXT			= SZÃ–VEG.E			##	Eredménye IGAZ, ha az érték szÃ¶veg.
+N			= N				##	Argumentumának értékét számmá alakítja.
+NA			= HIÁNYZIK			##	Eredménye a #HIÁNYZIK hibaérték.
+TYPE			= TÍPUS				##	Érték adattípusának azonosítószámát adja eredményÃ¼l.
+
+
+##
+##	Logical functions				Logikai fÃ¼ggvények
+##
+AND			= ÉS				##	Eredménye IGAZ, ha minden argumentuma IGAZ.
+FALSE			= HAMIS				##	A HAMIS logikai értéket adja eredményÃ¼l.
+IF			= HA				##	Logikai vizsgálatot hajt végre.
+IFERROR			= HAHIBA			##	A megadott értéket adja vissza, ha egy képlet hibához vezet; más esetben a képlet értékét adja eredményÃ¼l.
+NOT			= NEM				##	Argumentuma értékének ellentettjét adja eredményÃ¼l.
+OR			= VAGY				##	Eredménye IGAZ, ha bármely argumentuma IGAZ.
+TRUE			= IGAZ				##	Az IGAZ logikai értéket adja eredményÃ¼l.
+
+
+##
+##	Lookup and reference functions			Keresési és hivatkozási fÃ¼ggvények
+##
+ADDRESS			= CÍM				##	A munkalap egy cellájára való hivatkozást adja szÃ¶vegként eredményÃ¼l.
+AREAS			= TERÃœLET			##	Hivatkozásban a terÃ¼letek számát adja eredményÃ¼l.
+CHOOSE			= VÁLASZT			##	Értékek listájából választ ki egy elemet.
+COLUMN			= OSZLOP			##	Egy hivatkozás oszlopszámát adja eredményÃ¼l.
+COLUMNS			= OSZLOPOK			##	A hivatkozásban található oszlopok számát adja eredményÃ¼l.
+HLOOKUP			= VKERES			##	A megadott tÃ¶mb felsÅ‘ sorában adott értékÅ± elemet keres, és a megtalált elem oszlopából adott sorban elhelyezkedÅ‘ értékkel tér vissza.
+HYPERLINK		= HIPERHIVATKOZÁS		##	Hálózati kiszolgálón, intraneten vagy az interneten tárolt dokumentumot megnyitó parancsikont vagy hivatkozást hoz létre.
+INDEX			= INDEX				##	TÃ¶mb- vagy hivatkozás indexszel megadott értékét adja vissza.
+INDIRECT		= INDIREKT			##	SzÃ¶veg megadott hivatkozást ad eredményÃ¼l.
+LOOKUP			= KERES				##	Vektorban vagy tÃ¶mbben keres meg értékeket.
+MATCH			= HOL.VAN			##	Hivatkozásban vagy tÃ¶mbben értékeket keres.
+OFFSET			= OFSZET			##	Hivatkozás egy másik hivatkozástól számított távolságát adja meg.
+ROW			= SOR				##	Egy hivatkozás sorának számát adja meg.
+ROWS			= SOROK				##	Egy hivatkozás sorainak számát adja meg.
+RTD			= RTD				##	Valós idejÅ± adatokat keres vissza a COM automatizmust (automatizálás: Egy alkalmazás objektumaival való munka másik alkalmazásból vagy fejlesztÅ‘eszkÃ¶zbÅ‘l. A korábban OLE automatizmusnak nevezett automatizálás iparági szabvány, a Component Object Model (COM) szolgáltatása.) támogató programból.
+TRANSPOSE		= TRANSZPONÁLÁS			##	Egy tÃ¶mb transzponáltját adja eredményÃ¼l.
+VLOOKUP			= FKERES			##	A megadott tÃ¶mb bal szélsÅ‘ oszlopában megkeres egy értéket, majd annak sora és a megadott oszlop metszéspontjában levÅ‘ értéked adja eredményÃ¼l.
+
+
+##
+##	Math and trigonometry functions			Matematikai és trigonometrikus fÃ¼ggvények
+##
+ABS			= ABS				##	Egy szám abszolút értékét adja eredményÃ¼l.
+ACOS			= ARCCOS			##	Egy szám arkusz koszinuszát számítja ki.
+ACOSH			= ACOSH				##	Egy szám inverz koszinusz hiperbolikuszát számítja ki.
+ASIN			= ARCSIN			##	Egy szám arkusz szinuszát számítja ki.
+ASINH			= ASINH				##	Egy szám inverz szinusz hiperbolikuszát számítja ki.
+ATAN			= ARCTAN			##	Egy szám arkusz tangensét számítja ki.
+ATAN2			= ARCTAN2			##	X és y koordináták alapján számítja ki az arkusz tangens értéket.
+ATANH			= ATANH				##	A szám inverz tangens hiperbolikuszát számítja ki.
+CEILING			= PLAFON			##	Egy számot a legkÃ¶zelebbi egészre vagy a pontosságként megadott érték legkÃ¶zelebb esÅ‘ tÃ¶bbszÃ¶rÃ¶sére kerekít.
+COMBIN			= KOMBINÁCIÓK			##	Adott számú objektum Ã¶sszes lehetséges kombinációinak számát számítja ki.
+COS			= COS				##	Egy szám koszinuszát számítja ki.
+COSH			= COSH				##	Egy szám koszinusz hiperbolikuszát számítja ki.
+DEGREES			= FOK				##	Radiánt fokká alakít át.
+EVEN			= PÁROS				##	Egy számot a legkÃ¶zelebbi páros egész számra kerekít.
+EXP			= KITEVÅ			##	Az e adott kitevÅ‘jÅ± hatványát adja eredményÃ¼l.
+FACT			= FAKT				##	Egy szám faktoriálisát számítja ki.
+FACTDOUBLE		= FACTDOUBLE			##	Egy szám dupla faktoriálisát adja eredményÃ¼l.
+FLOOR			= PADLÓ				##	Egy számot lefelé, a nulla felé kerekít.
+GCD			= GCD				##	A legnagyobb kÃ¶zÃ¶s osztót adja eredményÃ¼l.
+INT			= INT				##	Egy számot lefelé kerekít a legkÃ¶zelebbi egészre.
+LCM			= LCM				##	A legkisebb kÃ¶zÃ¶s tÃ¶bbszÃ¶rÃ¶st adja eredményÃ¼l.
+LN			= LN				##	Egy szám természetes logaritmusát számítja ki.
+LOG			= LOG				##	Egy szám adott alapú logaritmusát számítja ki.
+LOG10			= LOG10				##	Egy szám 10-es alapú logaritmusát számítja ki.
+MDETERM			= MDETERM			##	Egy tÃ¶mb mátrix-determinánsát számítja ki.
+MINVERSE		= INVERZ.MÁTRIX			##	Egy tÃ¶mb mátrix inverzét adja eredményÃ¼l.
+MMULT			= MSZORZAT			##	Két tÃ¶mb mátrix-szorzatát adja meg.
+MOD			= MARADÉK			##	Egy szám osztási maradékát adja eredményÃ¼l.
+MROUND			= MROUND			##	A kívánt tÃ¶bbszÃ¶rÃ¶sére kerekített értéket ad eredményÃ¼l.
+MULTINOMIAL		= MULTINOMIAL			##	Számhalmaz multinomiálisát adja eredményÃ¼l.
+ODD			= PÁRATLAN			##	Egy számot a legkÃ¶zelebbi páratlan számra kerekít.
+PI			= PI				##	A pi matematikai állandót adja vissza.
+POWER			= HATVÁNY			##	Egy szám adott kitevÅ‘jÅ± hatványát számítja ki.
+PRODUCT			= SZORZAT			##	Argumentumai szorzatát számítja ki.
+QUOTIENT		= QUOTIENT			##	Egy hányados egész részét adja eredményÃ¼l.
+RADIANS			= RADIÁN			##	Fokot radiánná alakít át.
+RAND			= VÉL				##	Egy 0 és 1 kÃ¶zÃ¶tti véletlen számot ad eredményÃ¼l.
+RANDBETWEEN		= RANDBETWEEN			##	Megadott számok kÃ¶zé esÅ‘ véletlen számot állít elÅ‘.
+ROMAN			= RÓMAI				##	Egy számot római számokkal kifejezve szÃ¶vegként ad eredményÃ¼l.
+ROUND			= KEREKÍTÉS			##	Egy számot adott számú számjegyre kerekít.
+ROUNDDOWN		= KEREKÍTÉS.LE			##	Egy számot lefelé, a nulla felé kerekít.
+ROUNDUP			= KEREKÍTÉS.FEL			##	Egy számot felfelé, a nullától távolabbra kerekít.
+SERIESSUM		= SERIESSUM			##	Hatványsor Ã¶sszegét adja eredményÃ¼l.
+SIGN			= ELÅJEL			##	Egy szám elÅ‘jelét adja meg.
+SIN			= SIN				##	Egy szÃ¶g szinuszát számítja ki.
+SINH			= SINH				##	Egy szám szinusz hiperbolikuszát számítja ki.
+SQRT			= GYÃ–K				##	Egy szám pozitív négyzetgyÃ¶két számítja ki.
+SQRTPI			= SQRTPI			##	A (szám*pi) négyzetgyÃ¶két adja eredményÃ¼l.
+SUBTOTAL		= RÉSZÃ–SSZEG			##	Lista vagy adatbázis részÃ¶sszegét adja eredményÃ¼l.
+SUM			= SZUM				##	Ã–sszeadja az argumentumlistájában lévÅ‘ számokat.
+SUMIF			= SZUMHA			##	A megadott feltételeknek eleget tevÅ‘ cellákban található értékeket adja Ã¶ssze.
+SUMIFS			= SZUMHATÃ–BB			##	TÃ¶bb megadott feltételnek eleget tévÅ‘ tartománycellák Ã¶sszegét adja eredményÃ¼l.
+SUMPRODUCT		= SZORZATÃ–SSZEG			##	A megfelelÅ‘ tÃ¶mbelemek szorzatának Ã¶sszegét számítja ki.
+SUMSQ			= NÉGYZETÃ–SSZEG			##	Argumentumai négyzetének Ã¶sszegét számítja ki.
+SUMX2MY2		= SZUMX2BÅLY2			##	Két tÃ¶mb megfelelÅ‘ elemei négyzetének kÃ¼lÃ¶nbségét Ã¶sszegzi.
+SUMX2PY2		= SZUMX2MEGY2			##	Két tÃ¶mb megfelelÅ‘ elemei négyzetének Ã¶sszegét Ã¶sszegzi.
+SUMXMY2			= SZUMXBÅLY2			##	Két tÃ¶mb megfelelÅ‘ elemei kÃ¼lÃ¶nbségének négyzetÃ¶sszegét számítja ki.
+TAN			= TAN				##	Egy szám tangensét számítja ki.
+TANH			= TANH				##	Egy szám tangens hiperbolikuszát számítja ki.
+TRUNC			= CSONK				##	Egy számot egésszé csonkít.
+
+
+##
+##	Statistical functions				Statisztikai fÃ¼ggvények
+##
+AVEDEV			= ÁTL.ELTÉRÉS			##	Az adatpontoknak átlaguktól való átlagos abszolút eltérését számítja ki.
+AVERAGE			= ÁTLAG				##	Argumentumai átlagát számítja ki.
+AVERAGEA		= ÁTLAGA			##	Argumentumai átlagát számítja ki (beleértve a számokat, szÃ¶veget és logikai értékeket).
+AVERAGEIF		= ÁTLAGHA			##	A megadott feltételnek eleget tévÅ‘ tartomány celláinak átlagát (számtani kÃ¶zepét) adja eredményÃ¼l.
+AVERAGEIFS		= ÁTLAGHATÃ–BB			##	A megadott feltételeknek eleget tévÅ‘ cellák átlagát (számtani kÃ¶zepét) adja eredményÃ¼l.
+BETADIST		= BÉTA.ELOSZLÁS			##	A béta-eloszlás fÃ¼ggvényt számítja ki.
+BETAINV			= INVERZ.BÉTA			##	Adott béta-eloszláshoz kiszámítja a béta eloszlásfÃ¼ggvény inverzét.
+BINOMDIST		= BINOM.ELOSZLÁS		##	A diszkrét binomiális eloszlás valószínÅ±ségértékét számítja ki.
+CHIDIST			= KHI.ELOSZLÁS			##	A khi-négyzet-eloszlás egyszélÅ± valószínÅ±ségértékét számítja ki.
+CHIINV			= INVERZ.KHI			##	A khi-négyzet-eloszlás egyszélÅ± valószínÅ±ségértékének inverzét számítja ki.
+CHITEST			= KHI.PRÓBA			##	FÃ¼ggetlenségvizsgálatot hajt végre.
+CONFIDENCE		= MEGBÍZHATÓSÁG			##	Egy statisztikai sokaság várható értékének megbízhatósági intervallumát adja eredményÃ¼l.
+CORREL			= KORREL			##	Két adathalmaz korrelációs egyÃ¼tthatóját számítja ki.
+COUNT			= DARAB				##	Megszámolja, hogy argumentumlistájában hány szám található.
+COUNTA			= DARAB2			##	Megszámolja, hogy argumentumlistájában hány érték található.
+COUNTBLANK		= DARABÃœRES			##	Egy tartományban Ã¶sszeszámolja az Ã¼res cellákat.
+COUNTIF			= DARABTELI			##	Egy tartományban Ã¶sszeszámolja azokat a cellákat, amelyek eleget tesznek a megadott feltételnek.
+COUNTIFS		= DARABHATÃ–BB			##	Egy tartományban Ã¶sszeszámolja azokat a cellákat, amelyek eleget tesznek tÃ¶bb feltételnek.
+COVAR			= KOVAR				##	A kovarianciát, azaz a páronkénti eltérések szorzatának átlagát számítja ki.
+CRITBINOM		= KRITBINOM			##	Azt a legkisebb számot adja eredményÃ¼l, amelyre a binomiális eloszlásfÃ¼ggvény értéke nem kisebb egy adott határértéknél.
+DEVSQ			= SQ				##	Az átlagtól való eltérések négyzetének Ã¶sszegét számítja ki.
+EXPONDIST		= EXP.ELOSZLÁS			##	Az exponenciális eloszlás értékét számítja ki.
+FDIST			= F.ELOSZLÁS			##	Az F-eloszlás értékét számítja ki.
+FINV			= INVERZ.F			##	Az F-eloszlás inverzének értékét számítja ki.
+FISHER			= FISHER			##	Fisher-transzformációt hajt végre.
+FISHERINV		= INVERZ.FISHER			##	A Fisher-transzformáció inverzét hajtja végre.
+FORECAST		= ELÅREJELZÉS			##	Az ismert értékek alapján lineáris regresszióval becsÃ¼lt értéket ad eredményÃ¼l.
+FREQUENCY		= GYAKORISÁG			##	A gyakorisági vagy empirikus eloszlás értékét fÃ¼ggÅ‘leges tÃ¶mbként adja eredményÃ¼l.
+FTEST			= F.PRÓBA			##	Az F-próba értékét adja eredményÃ¼l.
+GAMMADIST		= GAMMA.ELOSZLÁS		##	A gamma-eloszlás értékét számítja ki.
+GAMMAINV		= INVERZ.GAMMA			##	A gamma-eloszlás eloszlásfÃ¼ggvénye inverzének értékét számítja ki.
+GAMMALN			= GAMMALN			##	A gamma-fÃ¼ggvény természetes logaritmusát számítja ki.
+GEOMEAN			= MÉRTANI.KÃ–ZÉP			##	Argumentumai mértani kÃ¶zépértékét számítja ki.
+GROWTH			= NÃ–V				##	Exponenciális regresszió alapján ad becslést.
+HARMEAN			= HARM.KÃ–ZÉP			##	Argumentumai harmonikus átlagát számítja ki.
+HYPGEOMDIST		= HIPERGEOM.ELOSZLÁS		##	A hipergeometriai eloszlás értékét számítja ki.
+INTERCEPT		= METSZ				##	A regressziós egyenes y tengellyel való metszéspontját határozza meg.
+KURT			= CSÚCSOSSÁG			##	Egy adathalmaz csúcsosságát számítja ki.
+LARGE			= NAGY				##	Egy adathalmaz k-adik legnagyobb elemét adja eredményÃ¼l.
+LINEST			= LIN.ILL			##	A legkisebb négyzetek módszerével az adatokra illesztett egyenes paramétereit határozza meg.
+LOGEST			= LOG.ILL			##	Az adatokra illesztett exponenciális gÃ¶rbe paramétereit határozza meg.
+LOGINV			= INVERZ.LOG.ELOSZLÁS		##	A lognormális eloszlás inverzét számítja ki.
+LOGNORMDIST		= LOG.ELOSZLÁS			##	A lognormális eloszlásfÃ¼ggvény értékét számítja ki.
+MAX			= MAX				##	Az argumentumai kÃ¶zÃ¶tt szereplÅ‘ legnagyobb számot adja meg.
+MAXA			= MAX2				##	Az argumentumai kÃ¶zÃ¶tt szereplÅ‘ legnagyobb számot adja meg (beleértve a számokat, szÃ¶veget és logikai értékeket).
+MEDIAN			= MEDIÁN			##	Adott számhalmaz mediánját számítja ki.
+MIN			= MIN				##	Az argumentumai kÃ¶zÃ¶tt szereplÅ‘ legkisebb számot adja meg.
+MINA			= MIN2				##	Az argumentumai kÃ¶zÃ¶tt szereplÅ‘ legkisebb számot adja meg, beleértve a számokat, szÃ¶veget és logikai értékeket.
+MODE			= MÓDUSZ			##	Egy adathalmazból kiválasztja a leggyakrabban elÅ‘forduló számot.
+NEGBINOMDIST		= NEGBINOM.ELOSZL		##	A negatív binomiális eloszlás értékét számítja ki.
+NORMDIST		= NORM.ELOSZL			##	A normális eloszlás értékét számítja ki.
+NORMINV			= INVERZ.NORM			##	A normális eloszlás eloszlásfÃ¼ggvénye inverzének értékét számítja ki.
+NORMSDIST		= STNORMELOSZL			##	A standard normális eloszlás eloszlásfÃ¼ggvényének értékét számítja ki.
+NORMSINV		= INVERZ.STNORM			##	A standard normális eloszlás eloszlásfÃ¼ggvénye inverzének értékét számítja ki.
+PEARSON			= PEARSON			##	A Pearson-féle korrelációs egyÃ¼tthatót számítja ki.
+PERCENTILE		= PERCENTILIS			##	Egy tartományban található értékek k-adik percentilisét, azaz százalékosztályát adja eredményÃ¼l.
+PERCENTRANK		= SZÁZALÉKRANG			##	Egy értéknek egy adathalmazon belÃ¼l vett százalékos rangját (elhelyezkedését) számítja ki.
+PERMUT			= VARIÁCIÓK			##	Adott számú objektum k-ad osztályú ismétlés nélkÃ¼li variációinak számát számítja ki.
+POISSON			= POISSON			##	A Poisson-eloszlás értékét számítja ki.
+PROB			= VALÓSZÍNÅ°SÉG			##	Annak valószínÅ±ségét számítja ki, hogy adott értékek két határérték kÃ¶zé esnek.
+QUARTILE		= KVARTILIS			##	Egy adathalmaz kvartilisét (negyedszintjét) számítja ki.
+RANK			= SORSZÁM			##	Kiszámítja, hogy egy szám hányadik egy számsorozatban.
+RSQ			= RNÉGYZET			##	Kiszámítja a Pearson-féle szorzatmomentum korrelációs egyÃ¼tthatójának négyzetét.
+SKEW			= FERDESÉG			##	Egy eloszlás ferdeségét határozza meg.
+SLOPE			= MEREDEKSÉG			##	Egy lineáris regressziós egyenes meredekségét számítja ki.
+SMALL			= KICSI				##	Egy adathalmaz k-adik legkisebb elemét adja meg.
+STANDARDIZE		= NORMALIZÁLÁS			##	Normalizált értéket ad eredményÃ¼l.
+STDEV			= SZÓRÁS			##	Egy statisztikai sokaság mintájából kiszámítja annak szórását.
+STDEVA			= SZÓRÁSA			##	Egy statisztikai sokaság mintájából kiszámítja annak szórását (beleértve a számokat, szÃ¶veget és logikai értékeket).
+STDEVP			= SZÓRÁSP			##	Egy statisztikai sokaság egészébÅ‘l kiszámítja annak szórását.
+STDEVPA			= SZÓRÁSPA			##	Egy statisztikai sokaság egészébÅ‘l kiszámítja annak szórását (beleértve számokat, szÃ¶veget és logikai értékeket).
+STEYX			= STHIBAYX			##	Egy regresszió esetén az egyes x-értékek alapján meghatározott y-értékek standard hibáját számítja ki.
+TDIST			= T.ELOSZLÁS			##	A Student-féle t-eloszlás értékét számítja ki.
+TINV			= INVERZ.T			##	A Student-féle t-eloszlás inverzét számítja ki.
+TREND			= TREND				##	Lineáris trend értékeit számítja ki.
+TRIMMEAN		= RÉSZÁTLAG			##	Egy adathalmaz kÃ¶zépsÅ‘ részének átlagát számítja ki.
+TTEST			= T.PRÓBA			##	A Student-féle t-próbához tartozó valószínÅ±séget számítja ki.
+VAR			= VAR				##	Minta alapján becslést ad a varianciára.
+VARA			= VARA				##	Minta alapján becslést ad a varianciára (beleértve számokat, szÃ¶veget és logikai értékeket).
+VARP			= VARP				##	Egy statisztikai sokaság varianciáját számítja ki.
+VARPA			= VARPA				##	Egy statisztikai sokaság varianciáját számítja ki (beleértve számokat, szÃ¶veget és logikai értékeket).
+WEIBULL			= WEIBULL			##	A Weibull-féle eloszlás értékét számítja ki.
+ZTEST			= Z.PRÓBA			##	Az egyszélÅ± z-próbával kapott valószínÅ±ségértéket számítja ki.
+
+
+##
+##	Text functions					SzÃ¶vegmÅ±veletekhez használható fÃ¼ggvények
+##
+ASC			= ASC				##	SzÃ¶veg teljes szélességÅ± (kétbájtos) latin és katakana karaktereit félszélességÅ± (egybájtos) karakterekké alakítja.
+BAHTTEXT		= BAHTSZÃ–VEG			##	Számot szÃ¶veggé alakít a ÃŸ (baht) pénznemformátum használatával.
+CHAR			= KARAKTER			##	A kódszámmal meghatározott karaktert adja eredményÃ¼l.
+CLEAN			= TISZTÍT			##	A szÃ¶vegbÅ‘l eltávolítja az Ã¶sszes nem nyomtatható karaktert.
+CODE			= KÓD				##	Karaktersorozat elsÅ‘ karakterének numerikus kódját adja eredményÃ¼l.
+CONCATENATE		= Ã–SSZEFÅ°Z			##	TÃ¶bb szÃ¶vegelemet egyetlen szÃ¶veges elemmé fÅ±z Ã¶ssze.
+DOLLAR			= FORINT			##	Számot pénznem formátumú szÃ¶veggé alakít át.
+EXACT			= AZONOS			##	Megvizsgálja, hogy két érték azonos-e.
+FIND			= SZÃ–VEG.TALÁL			##	Karaktersorozatot keres egy másikban (a kis- és nagybetÅ±k megkÃ¼lÃ¶nbÃ¶ztetésével).
+FINDB			= SZÃ–VEG.TALÁL2			##	Karaktersorozatot keres egy másikban (a kis- és nagybetÅ±k megkÃ¼lÃ¶nbÃ¶ztetésével).
+FIXED			= FIX				##	Számot szÃ¶veges formátumúra alakít adott számú tizedesjegyre kerekítve.
+JIS			= JIS				##	A félszélességÅ± (egybájtos) latin és a katakana karaktereket teljes szélességÅ± (kétbájtos) karakterekké alakítja.
+LEFT			= BAL				##	SzÃ¶veg bal szélsÅ‘ karaktereit adja eredményÃ¼l.
+LEFTB			= BAL2				##	SzÃ¶veg bal szélsÅ‘ karaktereit adja eredményÃ¼l.
+LEN			= HOSSZ				##	SzÃ¶veg karakterekben mért hosszát adja eredményÃ¼l.
+LENB			= HOSSZ2			##	SzÃ¶veg karakterekben mért hosszát adja eredményÃ¼l.
+LOWER			= KISBETÅ°			##	SzÃ¶veget kisbetÅ±ssé alakít át.
+MID			= KÃ–ZÉP				##	A szÃ¶veg adott pozíciójától kezdve megadott számú karaktert ad vissza eredményként.
+MIDB			= KÃ–ZÉP2			##	A szÃ¶veg adott pozíciójától kezdve megadott számú karaktert ad vissza eredményként.
+PHONETIC		= PHONETIC			##	SzÃ¶veg furigana (fonetikus) karaktereit adja vissza.
+PROPER			= TNÉV				##	SzÃ¶veg minden szavának kezdÅ‘betÅ±jét nagybetÅ±sre cseréli.
+REPLACE			= CSERE				##	A szÃ¶vegen belÃ¼l karaktereket cserél.
+REPLACEB		= CSERE2			##	A szÃ¶vegen belÃ¼l karaktereket cserél.
+REPT			= SOKSZOR			##	Megadott számú alkalommal megismétel egy szÃ¶vegrészt.
+RIGHT			= JOBB				##	SzÃ¶vegrész jobb szélsÅ‘ karaktereit adja eredményÃ¼l.
+RIGHTB			= JOBB2				##	SzÃ¶vegrész jobb szélsÅ‘ karaktereit adja eredményÃ¼l.
+SEARCH			= SZÃ–VEG.KERES			##	Karaktersorozatot keres egy másikban (a kis- és nagybetÅ±k kÃ¶zÃ¶tt nem tesz kÃ¼lÃ¶nbséget).
+SEARCHB			= SZÃ–VEG.KERES2			##	Karaktersorozatot keres egy másikban (a kis- és nagybetÅ±k kÃ¶zÃ¶tt nem tesz kÃ¼lÃ¶nbséget).
+SUBSTITUTE		= HELYETTE			##	SzÃ¶vegben adott karaktereket másikra cserél.
+T			= T				##	Argumentumát szÃ¶veggé alakítja át.
+TEXT			= SZÃ–VEG			##	Számértéket alakít át adott számformátumú szÃ¶veggé.
+TRIM			= TRIM				##	A szÃ¶vegbÅ‘l eltávolítja a szókÃ¶zÃ¶ket.
+UPPER			= NAGYBETÅ°S			##	SzÃ¶veget nagybetÅ±ssé alakít át.
+VALUE			= ÉRTÉK				##	SzÃ¶veget számmá alakít át.

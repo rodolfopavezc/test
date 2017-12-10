@@ -1,0 +1,438 @@
+ï»¿##
+## PHPExcel
+##
+## Copyright (c) 2006 - 2011 PHPExcel
+##
+## This library is free software; you can redistribute it and/or
+## modify it under the terms of the GNU Lesser General Public
+## License as published by the Free Software Foundation; either
+## version 2.1 of the License, or (at your option) any later version.
+##
+## This library is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+## Lesser General Public License for more details.
+##
+## You should have received a copy of the GNU Lesser General Public
+## License along with this library; if not, write to the Free Software
+## Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+##
+## @category   PHPExcel
+## @package    PHPExcel_Calculation
+## @copyright  Copyright (c) 2006 - 2011 PHPExcel (http://www.codeplex.com/PHPExcel)
+## @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
+## @version    1.7.8, 2012-10-12
+##
+## Data in this file derived from http://www.piuha.fi/excel-function-name-translation/
+##
+##
+
+
+##
+##	Add-in and Automation functions			Fonctions de complément et dâ€™automatisation
+##
+GETPIVOTDATA		= LIREDONNEESTABCROISDYNAMIQUE	##	Renvoie les données stockées dans un rapport de tableau croisé dynamique.
+
+
+##
+##	Cube functions					Fonctions Cube
+##
+CUBEKPIMEMBER		= MEMBREKPICUBE			##	Renvoie un nom, une propriété et une mesure dâ€™indicateur de performance clé et affiche le nom et la propriété dans la cellule. Un indicateur de performance clé est une mesure quantifiable, telle que la marge bénéficiaire brute mensuelle ou la rotation trimestrielle du personnel, utilisée pour évaluer les performances dâ€™une entreprise.
+CUBEMEMBER		= MEMBRECUBE			##	Renvoie un membre ou un uplet dans une hiérarchie de cubes. Utilisez cette fonction pour valider lâ€™existence du membre ou de lâ€™uplet dans le cube.
+CUBEMEMBERPROPERTY	= PROPRIETEMEMBRECUBE		##	Renvoie la valeur dâ€™une propriété de membre du cube. Utilisez cette fonction pour valider lâ€™existence dâ€™un nom de membre dans le cube et pour renvoyer la propriété spécifiée pour ce membre.
+CUBERANKEDMEMBER	= RANGMEMBRECUBE		##	Renvoie le niÃ¨me membre ou le membre placé Ã  un certain rang dans un ensemble. Utilisez cette fonction pour renvoyer un ou plusieurs éléments dâ€™un ensemble, tels que les meilleurs vendeurs ou les 10 meilleurs étudiants.
+CUBESET			= JEUCUBE			##	Définit un ensemble calculé de membres ou dâ€™uplets en envoyant une expression définie au cube sur le serveur qui crée lâ€™ensemble et le renvoie Ã  Microsoft Office Excel.
+CUBESETCOUNT		= NBJEUCUBE			##	Renvoie le nombre dâ€™éléments dans un jeu.
+CUBEVALUE		= VALEURCUBE			##	Renvoie une valeur dâ€™agrégation issue dâ€™un cube.
+
+
+##
+##	Database functions				Fonctions de base de données
+##
+DAVERAGE		= BDMOYENNE			##	Renvoie la moyenne des entrées de base de données sélectionnées.
+DCOUNT			= BCOMPTE			##	Compte le nombre de cellules dâ€™une base de données qui contiennent des nombres.
+DCOUNTA			= BDNBVAL			##	Compte les cellules non vides dâ€™une base de données.
+DGET			= BDLIRE			##	Extrait dâ€™une base de données un enregistrement unique répondant aux critÃ¨res spécifiés.
+DMAX			= BDMAX				##	Renvoie la valeur maximale des entrées de base de données sélectionnées.
+DMIN			= BDMIN				##	Renvoie la valeur minimale des entrées de base de données sélectionnées.
+DPRODUCT		= BDPRODUIT			##	Multiplie les valeurs dâ€™un champ particulier des enregistrements dâ€™une base de données, qui répondent aux critÃ¨res spécifiés.
+DSTDEV			= BDECARTYPE			##	Calcule lâ€™écart type pour un échantillon dâ€™entrées de base de données sélectionnées.
+DSTDEVP			= BDECARTYPEP			##	Calcule lâ€™écart type pour lâ€™ensemble dâ€™une population dâ€™entrées de base de données sélectionnées.
+DSUM			= BDSOMME			##	Ajoute les nombres dans la colonne de champ des enregistrements de la base de données, qui répondent aux critÃ¨res.
+DVAR			= BDVAR				##	Calcule la variance pour un échantillon dâ€™entrées de base de données sélectionnées.
+DVARP			= BDVARP			##	Calcule la variance pour lâ€™ensemble dâ€™une population dâ€™entrées de base de données sélectionnées.
+
+
+##
+##	Date and time functions				Fonctions de date et dâ€™heure
+##
+DATE			= DATE				##	Renvoie le numéro de série dâ€™une date précise.
+DATEVALUE		= DATEVAL			##	Convertit une date représentée sous forme de texte en numéro de série.
+DAY			= JOUR				##	Convertit un numéro de série en jour du mois.
+DAYS360			= JOURS360			##	Calcule le nombre de jours qui séparent deux dates sur la base dâ€™une année de 360 jours.
+EDATE			= MOIS.DECALER			##	Renvoie le numéro séquentiel de la date qui représente une date spécifiée (lâ€™argument date_départ), corrigée en plus ou en moins du nombre de mois indiqué.
+EOMONTH			= FIN.MOIS			##	Renvoie le numéro séquentiel de la date du dernier jour du mois précédant ou suivant la date_départ du nombre de mois indiqué.
+HOUR			= HEURE				##	Convertit un numéro de série en heure.
+MINUTE			= MINUTE			##	Convertit un numéro de série en minute.
+MONTH			= MOIS				##	Convertit un numéro de série en mois.
+NETWORKDAYS		= NB.JOURS.OUVRES		##	Renvoie le nombre de jours ouvrés entiers compris entre deux dates.
+NOW			= MAINTENANT			##	Renvoie le numéro de série de la date et de lâ€™heure du jour.
+SECOND			= SECONDE			##	Convertit un numéro de série en seconde.
+TIME			= TEMPS				##	Renvoie le numéro de série dâ€™une heure précise.
+TIMEVALUE		= TEMPSVAL			##	Convertit une date représentée sous forme de texte en numéro de série.
+TODAY			= AUJOURDHUI			##	Renvoie le numéro de série de la date du jour.
+WEEKDAY			= JOURSEM			##	Convertit un numéro de série en jour de la semaine.
+WEEKNUM			= NO.SEMAINE			##	Convertit un numéro de série en un numéro représentant lâ€™ordre de la semaine dans lâ€™année.
+WORKDAY			= SERIE.JOUR.OUVRE		##	Renvoie le numéro de série de la date avant ou aprÃ¨s le nombre de jours ouvrés spécifiés.
+YEAR			= ANNEE				##	Convertit un numéro de série en année.
+YEARFRAC		= FRACTION.ANNEE		##	Renvoie la fraction de lâ€™année représentant le nombre de jours entre la date de début et la date de fin.
+
+
+##
+##	Engineering functions				Fonctions dâ€™ingénierie
+##
+BESSELI			= BESSELI			##	Renvoie la fonction Bessel modifiée In(x).
+BESSELJ			= BESSELJ			##	Renvoie la fonction Bessel Jn(x).
+BESSELK			= BESSELK			##	Renvoie la fonction Bessel modifiée Kn(x).
+BESSELY			= BESSELY			##	Renvoie la fonction Bessel Yn(x).
+BIN2DEC			= BINDEC			##	Convertit un nombre binaire en nombre décimal.
+BIN2HEX			= BINHEX			##	Convertit un nombre binaire en nombre hexadécimal.
+BIN2OCT			= BINOCT			##	Convertit un nombre binaire en nombre octal.
+COMPLEX			= COMPLEXE			##	Convertit des coefficients réel et imaginaire en un nombre complexe.
+CONVERT			= CONVERT			##	Convertit un nombre dâ€™une unité de mesure Ã  une autre.
+DEC2BIN			= DECBIN			##	Convertit un nombre décimal en nombre binaire.
+DEC2HEX			= DECHEX			##	Convertit un nombre décimal en nombre hexadécimal.
+DEC2OCT			= DECOCT			##	Convertit un nombre décimal en nombre octal.
+DELTA			= DELTA				##	Teste lâ€™égalité de deux nombres.
+ERF			= ERF				##	Renvoie la valeur de la fonction dâ€™erreur.
+ERFC			= ERFC				##	Renvoie la valeur de la fonction dâ€™erreur complémentaire.
+GESTEP			= SUP.SEUIL			##	Teste si un nombre est supérieur Ã  une valeur de seuil.
+HEX2BIN			= HEXBIN			##	Convertit un nombre hexadécimal en nombre binaire.
+HEX2DEC			= HEXDEC			##	Convertit un nombre hexadécimal en nombre décimal.
+HEX2OCT			= HEXOCT			##	Convertit un nombre hexadécimal en nombre octal.
+IMABS			= COMPLEXE.MODULE		##	Renvoie la valeur absolue (module) dâ€™un nombre complexe.
+IMAGINARY		= COMPLEXE.IMAGINAIRE		##	Renvoie le coefficient imaginaire dâ€™un nombre complexe.
+IMARGUMENT		= COMPLEXE.ARGUMENT		##	Renvoie lâ€™argument thÃªta, un angle exprimé en radians.
+IMCONJUGATE		= COMPLEXE.CONJUGUE		##	Renvoie le nombre complexe conjugué dâ€™un nombre complexe.
+IMCOS			= IMCOS				##	Renvoie le cosinus dâ€™un nombre complexe.
+IMDIV			= COMPLEXE.DIV			##	Renvoie le quotient de deux nombres complexes.
+IMEXP			= COMPLEXE.EXP			##	Renvoie la fonction exponentielle dâ€™un nombre complexe.
+IMLN			= COMPLEXE.LN			##	Renvoie le logarithme népérien dâ€™un nombre complexe.
+IMLOG10			= COMPLEXE.LOG10		##	Calcule le logarithme en base 10 dâ€™un nombre complexe.
+IMLOG2			= COMPLEXE.LOG2			##	Calcule le logarithme en base 2 dâ€™un nombre complexe.
+IMPOWER			= COMPLEXE.PUISSANCE		##	Renvoie un nombre complexe élevé Ã  une puissance entiÃ¨re.
+IMPRODUCT		= COMPLEXE.PRODUIT		##	Renvoie le produit de plusieurs nombres complexes.
+IMREAL			= COMPLEXE.REEL			##	Renvoie le coefficient réel dâ€™un nombre complexe.
+IMSIN			= COMPLEXE.SIN			##	Renvoie le sinus dâ€™un nombre complexe.
+IMSQRT			= COMPLEXE.RACINE		##	Renvoie la racine carrée dâ€™un nombre complexe.
+IMSUB			= COMPLEXE.DIFFERENCE		##	Renvoie la différence entre deux nombres complexes.
+IMSUM			= COMPLEXE.SOMME		##	Renvoie la somme de plusieurs nombres complexes.
+OCT2BIN			= OCTBIN			##	Convertit un nombre octal en nombre binaire.
+OCT2DEC			= OCTDEC			##	Convertit un nombre octal en nombre décimal.
+OCT2HEX			= OCTHEX			##	Convertit un nombre octal en nombre hexadécimal.
+
+
+##
+##	Financial functions				Fonctions financiÃ¨res
+##
+ACCRINT			= INTERET.ACC			##	Renvoie lâ€™intérÃªt couru non échu dâ€™un titre dont lâ€™intérÃªt est perÃ§u périodiquement.
+ACCRINTM		= INTERET.ACC.MAT		##	Renvoie lâ€™intérÃªt couru non échu dâ€™un titre dont lâ€™intérÃªt est perÃ§u Ã  lâ€™échéance.
+AMORDEGRC		= AMORDEGRC			##	Renvoie lâ€™amortissement correspondant Ã  chaque période comptable en utilisant un coefficient dâ€™amortissement.
+AMORLINC		= AMORLINC			##	Renvoie lâ€™amortissement dâ€™un bien Ã  la fin dâ€™une période fiscale donnée.
+COUPDAYBS		= NB.JOURS.COUPON.PREC		##	Renvoie le nombre de jours entre le début de la période de coupon et la date de liquidation.
+COUPDAYS		= NB.JOURS.COUPONS		##	Renvoie le nombre de jours pour la période du coupon contenant la date de liquidation.
+COUPDAYSNC		= NB.JOURS.COUPON.SUIV		##	Renvoie le nombre de jours entre la date de liquidation et la date du coupon suivant la date de liquidation.
+COUPNCD			= DATE.COUPON.SUIV		##	Renvoie la premiÃ¨re date de coupon ultérieure Ã  la date de rÃ¨glement.
+COUPNUM			= NB.COUPONS			##	Renvoie le nombre de coupons dus entre la date de rÃ¨glement et la date dâ€™échéance.
+COUPPCD			= DATE.COUPON.PREC		##	Renvoie la date de coupon précédant la date de rÃ¨glement.
+CUMIPMT			= CUMUL.INTER			##	Renvoie lâ€™intérÃªt cumulé payé sur un emprunt entre deux périodes.
+CUMPRINC		= CUMUL.PRINCPER		##	Renvoie le montant cumulé des remboursements du capital dâ€™un emprunt effectués entre deux périodes.
+DB			= DB				##	Renvoie lâ€™amortissement dâ€™un bien pour une période spécifiée en utilisant la méthode de lâ€™amortissement dégressif Ã  taux fixe.
+DDB			= DDB				##	Renvoie lâ€™amortissement dâ€™un bien pour toute période spécifiée, en utilisant la méthode de lâ€™amortissement dégressif Ã  taux double ou selon un coefficient Ã  spécifier.
+DISC			= TAUX.ESCOMPTE			##	Calcule le taux dâ€™escompte dâ€™une transaction.
+DOLLARDE		= PRIX.DEC			##	Convertit un prix en euros, exprimé sous forme de fraction, en un prix en euros exprimé sous forme de nombre décimal.
+DOLLARFR		= PRIX.FRAC			##	Convertit un prix en euros, exprimé sous forme de nombre décimal, en un prix en euros exprimé sous forme de fraction.
+DURATION		= DUREE				##	Renvoie la durée, en années, dâ€™un titre dont lâ€™intérÃªt est perÃ§u périodiquement.
+EFFECT			= TAUX.EFFECTIF			##	Renvoie le taux dâ€™intérÃªt annuel effectif.
+FV			= VC				##	Renvoie la valeur future dâ€™un investissement.
+FVSCHEDULE		= VC.PAIEMENTS			##	Calcule la valeur future dâ€™un investissement en appliquant une série de taux dâ€™intérÃªt composites.
+INTRATE			= TAUX.INTERET			##	Affiche le taux dâ€™intérÃªt dâ€™un titre totalement investi.
+IPMT			= INTPER			##	Calcule le montant des intérÃªts dâ€™un investissement pour une période donnée.
+IRR			= TRI				##	Calcule le taux de rentabilité interne dâ€™un investissement pour une succession de trésoreries.
+ISPMT			= ISPMT				##	Calcule le montant des intérÃªts dâ€™un investissement pour une période donnée.
+MDURATION		= DUREE.MODIFIEE		##	Renvoie la durée de Macauley modifiée pour un titre ayant une valeur nominale hypothétique de 100_euros.
+MIRR			= TRIM				##	Calcule le taux de rentabilité interne lorsque les paiements positifs et négatifs sont financés Ã  des taux différents.
+NOMINAL			= TAUX.NOMINAL			##	Calcule le taux dâ€™intérÃªt nominal annuel.
+NPER			= NPM				##	Renvoie le nombre de versements nécessaires pour rembourser un emprunt.
+NPV			= VAN				##	Calcule la valeur actuelle nette dâ€™un investissement basé sur une série de décaissements et un taux dâ€™escompte.
+ODDFPRICE		= PRIX.PCOUPON.IRREG		##	Renvoie le prix par tranche de valeur nominale de 100 euros dâ€™un titre dont la premiÃ¨re période de coupon est irréguliÃ¨re.
+ODDFYIELD		= REND.PCOUPON.IRREG		##	Renvoie le taux de rendement dâ€™un titre dont la premiÃ¨re période de coupon est irréguliÃ¨re.
+ODDLPRICE		= PRIX.DCOUPON.IRREG		##	Renvoie le prix par tranche de valeur nominale de 100 euros dâ€™un titre dont la premiÃ¨re période de coupon est irréguliÃ¨re.
+ODDLYIELD		= REND.DCOUPON.IRREG		##	Renvoie le taux de rendement dâ€™un titre dont la derniÃ¨re période de coupon est irréguliÃ¨re.
+PMT			= VPM				##	Calcule le paiement périodique dâ€™un investissement donné.
+PPMT			= PRINCPER			##	Calcule, pour une période donnée, la part de remboursement du principal dâ€™un investissement.
+PRICE			= PRIX.TITRE			##	Renvoie le prix dâ€™un titre rapportant des intérÃªts périodiques, pour une valeur nominale de 100 euros.
+PRICEDISC		= VALEUR.ENCAISSEMENT		##	Renvoie la valeur dâ€™encaissement dâ€™un escompte commercial, pour une valeur nominale de 100 euros.
+PRICEMAT		= PRIX.TITRE.ECHEANCE		##	Renvoie le prix dâ€™un titre dont la valeur nominale est 100 euros et qui rapporte des intérÃªts Ã  lâ€™échéance.
+PV			= PV				##	Calcule la valeur actuelle dâ€™un investissement.
+RATE			= TAUX				##	Calcule le taux dâ€™intérÃªt par période pour une annuité.
+RECEIVED		= VALEUR.NOMINALE		##	Renvoie la valeur nominale Ã  échéance dâ€™un effet de commerce.
+SLN			= AMORLIN			##	Calcule lâ€™amortissement linéaire dâ€™un bien pour une période donnée.
+SYD			= SYD				##	Calcule lâ€™amortissement dâ€™un bien pour une période donnée sur la base de la méthode américaine Sum-of-Years Digits (amortissement dégressif Ã  taux décroissant appliqué Ã  une valeur constante).
+TBILLEQ			= TAUX.ESCOMPTE.R		##	Renvoie le taux dâ€™escompte rationnel dâ€™un bon du Trésor.
+TBILLPRICE		= PRIX.BON.TRESOR		##	Renvoie le prix dâ€™un bon du Trésor dâ€™une valeur nominale de 100 euros.
+TBILLYIELD		= RENDEMENT.BON.TRESOR		##	Calcule le taux de rendement dâ€™un bon du Trésor.
+VDB			= VDB				##	Renvoie lâ€™amortissement dâ€™un bien pour une période spécifiée ou partielle en utilisant une méthode de lâ€™amortissement dégressif Ã  taux fixe.
+XIRR			= TRI.PAIEMENTS			##	Calcule le taux de rentabilité interne dâ€™un ensemble de paiements non périodiques.
+XNPV			= VAN.PAIEMENTS			##	Renvoie la valeur actuelle nette dâ€™un ensemble de paiements non périodiques.
+YIELD			= RENDEMENT.TITRE		##	Calcule le rendement dâ€™un titre rapportant des intérÃªts périodiquement.
+YIELDDISC		= RENDEMENT.SIMPLE		##	Calcule le taux de rendement dâ€™un emprunt Ã  intérÃªt simple (par exemple, un bon du Trésor).
+YIELDMAT		= RENDEMENT.TITRE.ECHEANCE	##	Renvoie le rendement annuel dâ€™un titre qui rapporte des intérÃªts Ã  lâ€™échéance.
+
+
+##
+##	Information functions				Fonctions dâ€™information
+##
+CELL			= CELLULE			##	Renvoie des informations sur la mise en forme, lâ€™emplacement et le contenu dâ€™une cellule.
+ERROR.TYPE		= TYPE.ERREUR			##	Renvoie un nombre correspondant Ã  un type dâ€™erreur.
+INFO			= INFORMATIONS			##	Renvoie des informations sur lâ€™environnement dâ€™exploitation actuel.
+ISBLANK			= ESTVIDE			##	Renvoie VRAI si lâ€™argument valeur est vide.
+ISERR			= ESTERR			##	Renvoie VRAI si lâ€™argument valeur fait référence Ã  une valeur dâ€™erreur, sauf #N/A.
+ISERROR			= ESTERREUR			##	Renvoie VRAI si lâ€™argument valeur fait référence Ã  une valeur dâ€™erreur.
+ISEVEN			= EST.PAIR			##	Renvoie VRAI si le chiffre est pair.
+ISLOGICAL		= ESTLOGIQUE			##	Renvoie VRAI si lâ€™argument valeur fait référence Ã  une valeur logique.
+ISNA			= ESTNA				##	Renvoie VRAI si lâ€™argument valeur fait référence Ã  la valeur dâ€™erreur #N/A.
+ISNONTEXT		= ESTNONTEXTE			##	Renvoie VRAI si lâ€™argument valeur ne se présente pas sous forme de texte.
+ISNUMBER		= ESTNUM			##	Renvoie VRAI si lâ€™argument valeur représente un nombre.
+ISODD			= EST.IMPAIR			##	Renvoie VRAI si le chiffre est impair.
+ISREF			= ESTREF			##	Renvoie VRAI si lâ€™argument valeur est une référence.
+ISTEXT			= ESTTEXTE			##	Renvoie VRAI si lâ€™argument valeur se présente sous forme de texte.
+N			= N				##	Renvoie une valeur convertie en nombre.
+NA			= NA				##	Renvoie la valeur dâ€™erreur #N/A.
+TYPE			= TYPE				##	Renvoie un nombre indiquant le type de données dâ€™une valeur.
+
+
+##
+##	Logical functions				Fonctions logiques
+##
+AND			= ET				##	Renvoie VRAI si tous ses arguments sont VRAI.
+FALSE			= FAUX				##	Renvoie la valeur logique FAUX.
+IF			= SI				##	Spécifie un test logique Ã  effectuer.
+IFERROR			= SIERREUR			##	Renvoie une valeur que vous spécifiez si une formule génÃ¨re une erreur ; sinon, elle renvoie le résultat de la formule.
+NOT			= NON				##	Inverse la logique de cet argument.
+OR			= OU				##	Renvoie VRAI si un des arguments est VRAI.
+TRUE			= VRAI				##	Renvoie la valeur logique VRAI.
+
+
+##
+##	Lookup and reference functions			Fonctions de recherche et de référence
+##
+ADDRESS			= ADRESSE			##	Renvoie une référence sous forme de texte Ã  une seule cellule dâ€™une feuille de calcul.
+AREAS			= ZONES				##	Renvoie le nombre de zones dans une référence.
+CHOOSE			= CHOISIR			##	Choisit une valeur dans une liste.
+COLUMN			= COLONNE			##	Renvoie le numéro de colonne dâ€™une référence.
+COLUMNS			= COLONNES			##	Renvoie le nombre de colonnes dans une référence.
+HLOOKUP			= RECHERCHEH			##	Effectue une recherche dans la premiÃ¨re ligne dâ€™une matrice et renvoie la valeur de la cellule indiquée.
+HYPERLINK		= LIEN_HYPERTEXTE		##	Crée un raccourci ou un renvoi qui ouvre un document stocké sur un serveur réseau, sur un réseau Intranet ou sur Internet.
+INDEX			= INDEX				##	Utilise un index pour choisir une valeur provenant dâ€™une référence ou dâ€™une matrice.
+INDIRECT		= INDIRECT			##	Renvoie une référence indiquée par une valeur de texte.
+LOOKUP			= RECHERCHE			##	Recherche des valeurs dans un vecteur ou une matrice.
+MATCH			= EQUIV				##	Recherche des valeurs dans une référence ou une matrice.
+OFFSET			= DECALER			##	Renvoie une référence décalée par rapport Ã  une référence donnée.
+ROW			= LIGNE				##	Renvoie le numéro de ligne dâ€™une référence.
+ROWS			= LIGNES			##	Renvoie le nombre de lignes dans une référence.
+RTD			= RTD				##	Extrait les données en temps réel Ã  partir dâ€™un programme prenant en charge lâ€™automation COM (Automation : utilisation des objets d'une application Ã  partir d'une autre application ou d'un autre outil de développement. Autrefois appelée OLE Automation, Automation est une norme industrielle et une fonctionnalité du modÃ¨le d'objet COM (Component Object Model).).
+TRANSPOSE		= TRANSPOSE			##	Renvoie la transposition dâ€™une matrice.
+VLOOKUP			= RECHERCHEV			##	Effectue une recherche dans la premiÃ¨re colonne dâ€™une matrice et se déplace sur la ligne pour renvoyer la valeur dâ€™une cellule.
+
+
+##
+##	Math and trigonometry functions			Fonctions mathématiques et trigonométriques
+##
+ABS			= ABS				##	Renvoie la valeur absolue dâ€™un nombre.
+ACOS			= ACOS				##	Renvoie lâ€™arccosinus dâ€™un nombre.
+ACOSH			= ACOSH				##	Renvoie le cosinus hyperbolique inverse dâ€™un nombre.
+ASIN			= ASIN				##	Renvoie lâ€™arcsinus dâ€™un nombre.
+ASINH			= ASINH				##	Renvoie le sinus hyperbolique inverse dâ€™un nombre.
+ATAN			= ATAN				##	Renvoie lâ€™arctangente dâ€™un nombre.
+ATAN2			= ATAN2				##	Renvoie lâ€™arctangente des coordonnées x et y.
+ATANH			= ATANH				##	Renvoie la tangente hyperbolique inverse dâ€™un nombre.
+CEILING			= PLAFOND			##	Arrondit un nombre au nombre entier le plus proche ou au multiple le plus proche de lâ€™argument précision en sâ€™éloignant de zéro.
+COMBIN			= COMBIN			##	Renvoie le nombre de combinaisons que lâ€™on peut former avec un nombre donné dâ€™objets.
+COS			= COS				##	Renvoie le cosinus dâ€™un nombre.
+COSH			= COSH				##	Renvoie le cosinus hyperbolique dâ€™un nombre.
+DEGREES			= DEGRES			##	Convertit des radians en degrés.
+EVEN			= PAIR				##	Arrondit un nombre au nombre entier pair le plus proche en sâ€™éloignant de zéro.
+EXP			= EXP				##	Renvoie e élevé Ã  la puissance dâ€™un nombre donné.
+FACT			= FACT				##	Renvoie la factorielle dâ€™un nombre.
+FACTDOUBLE		= FACTDOUBLE			##	Renvoie la factorielle double dâ€™un nombre.
+FLOOR			= PLANCHER			##	Arrondit un nombre en tendant vers 0 (zéro).
+GCD			= PGCD				##	Renvoie le plus grand commun diviseur.
+INT			= ENT				##	Arrondit un nombre Ã  lâ€™entier immédiatement inférieur.
+LCM			= PPCM				##	Renvoie le plus petit commun multiple.
+LN			= LN				##	Renvoie le logarithme népérien dâ€™un nombre.
+LOG			= LOG				##	Renvoie le logarithme dâ€™un nombre dans la base spécifiée.
+LOG10			= LOG10				##	Calcule le logarithme en base 10 dâ€™un nombre.
+MDETERM			= DETERMAT			##	Renvoie le déterminant dâ€™une matrice.
+MINVERSE		= INVERSEMAT			##	Renvoie la matrice inverse dâ€™une matrice.
+MMULT			= PRODUITMAT			##	Renvoie le produit de deux matrices.
+MOD			= MOD				##	Renvoie le reste dâ€™une division.
+MROUND			= ARRONDI.AU.MULTIPLE		##	Donne lâ€™arrondi dâ€™un nombre au multiple spécifié.
+MULTINOMIAL		= MULTINOMIALE			##	Calcule la multinomiale dâ€™un ensemble de nombres.
+ODD			= IMPAIR			##	Renvoie le nombre, arrondi Ã  la valeur du nombre entier impair le plus proche en sâ€™éloignant de zéro.
+PI			= PI				##	Renvoie la valeur de pi.
+POWER			= PUISSANCE			##	Renvoie la valeur du nombre élevé Ã  une puissance.
+PRODUCT			= PRODUIT			##	Multiplie ses arguments.
+QUOTIENT		= QUOTIENT			##	Renvoie la partie entiÃ¨re du résultat dâ€™une division.
+RADIANS			= RADIANS			##	Convertit des degrés en radians.
+RAND			= ALEA				##	Renvoie un nombre aléatoire compris entre 0 et 1.
+RANDBETWEEN		= ALEA.ENTRE.BORNES		##	Renvoie un nombre aléatoire entre les nombres que vous spécifiez.
+ROMAN			= ROMAIN			##	Convertit des chiffres arabes en chiffres romains, sous forme de texte.
+ROUND			= ARRONDI			##	Arrondit un nombre au nombre de chiffres indiqué.
+ROUNDDOWN		= ARRONDI.INF			##	Arrondit un nombre en tendant vers 0 (zéro).
+ROUNDUP			= ARRONDI.SUP			##	Arrondit un nombre Ã  lâ€™entier supérieur, en sâ€™éloignant de zéro.
+SERIESSUM		= SOMME.SERIES			##	Renvoie la somme dâ€™une série géométrique en sâ€™appuyant sur la formule suivante :
+SIGN			= SIGNE				##	Renvoie le signe dâ€™un nombre.
+SIN			= SIN				##	Renvoie le sinus dâ€™un angle donné.
+SINH			= SINH				##	Renvoie le sinus hyperbolique dâ€™un nombre.
+SQRT			= RACINE			##	Renvoie la racine carrée dâ€™un nombre.
+SQRTPI			= RACINE.PI			##	Renvoie la racine carrée de (nombre * pi).
+SUBTOTAL		= SOUS.TOTAL			##	Renvoie un sous-total dans une liste ou une base de données.
+SUM			= SOMME				##	Calcule la somme de ses arguments.
+SUMIF			= SOMME.SI			##	Additionne les cellules spécifiées si elles répondent Ã  un critÃ¨re donné.
+SUMIFS			= SOMME.SI.ENS			##	Ajoute les cellules dâ€™une plage qui répondent Ã  plusieurs critÃ¨res.
+SUMPRODUCT		= SOMMEPROD			##	Multiplie les valeurs correspondantes des matrices spécifiées et calcule la somme de ces produits.
+SUMSQ			= SOMME.CARRES			##	Renvoie la somme des carrés des arguments.
+SUMX2MY2		= SOMME.X2MY2			##	Renvoie la somme de la différence des carrés des valeurs correspondantes de deux matrices.
+SUMX2PY2		= SOMME.X2PY2			##	Renvoie la somme de la somme des carrés des valeurs correspondantes de deux matrices.
+SUMXMY2			= SOMME.XMY2			##	Renvoie la somme des carrés des différences entre les valeurs correspondantes de deux matrices.
+TAN			= TAN				##	Renvoie la tangente dâ€™un nombre.
+TANH			= TANH				##	Renvoie la tangente hyperbolique dâ€™un nombre.
+TRUNC			= TRONQUE			##	Renvoie la partie entiÃ¨re dâ€™un nombre.
+
+
+##
+##	Statistical functions				Fonctions statistiques
+##
+AVEDEV			= ECART.MOYEN			##	Renvoie la moyenne des écarts absolus observés dans la moyenne des points de données.
+AVERAGE			= MOYENNE			##	Renvoie la moyenne de ses arguments.
+AVERAGEA		= AVERAGEA			##	Renvoie la moyenne de ses arguments, nombres, texte et valeurs logiques inclus.
+AVERAGEIF		= MOYENNE.SI			##	Renvoie la moyenne (arithmétique) de toutes les cellules dâ€™une plage qui répondent Ã  des critÃ¨res donnés.
+AVERAGEIFS		= MOYENNE.SI.ENS		##	Renvoie la moyenne (arithmétique) de toutes les cellules qui répondent Ã  plusieurs critÃ¨res.
+BETADIST		= LOI.BETA			##	Renvoie la fonction de distribution cumulée.
+BETAINV			= BETA.INVERSE			##	Renvoie lâ€™inverse de la fonction de distribution cumulée pour une distribution bÃªta spécifiée.
+BINOMDIST		= LOI.BINOMIALE			##	Renvoie la probabilité dâ€™une variable aléatoire discrÃ¨te suivant la loi binomiale.
+CHIDIST			= LOI.KHIDEUX			##	Renvoie la probabilité unilatérale de la distribution khi-deux.
+CHIINV			= KHIDEUX.INVERSE		##	Renvoie lâ€™inverse de la probabilité unilatérale de la distribution khi-deux.
+CHITEST			= TEST.KHIDEUX			##	Renvoie le test dâ€™indépendance.
+CONFIDENCE		= INTERVALLE.CONFIANCE		##	Renvoie lâ€™intervalle de confiance pour une moyenne de population.
+CORREL			= COEFFICIENT.CORRELATION	##	Renvoie le coefficient de corrélation entre deux séries de données.
+COUNT			= NB				##	Détermine les nombres compris dans la liste des arguments.
+COUNTA			= NBVAL				##	Détermine le nombre de valeurs comprises dans la liste des arguments.
+COUNTBLANK		= NB.VIDE			##	Compte le nombre de cellules vides dans une plage.
+COUNTIF			= NB.SI				##	Compte le nombre de cellules qui répondent Ã  un critÃ¨re donné dans une plage.
+COUNTIFS		= NB.SI.ENS			##	Compte le nombre de cellules Ã  lâ€™intérieur dâ€™une plage qui répondent Ã  plusieurs critÃ¨res.
+COVAR			= COVARIANCE			##	Renvoie la covariance, moyenne des produits des écarts pour chaque série dâ€™observations.
+CRITBINOM		= CRITERE.LOI.BINOMIALE		##	Renvoie la plus petite valeur pour laquelle la distribution binomiale cumulée est inférieure ou égale Ã  une valeur de critÃ¨re.
+DEVSQ			= SOMME.CARRES.ECARTS		##	Renvoie la somme des carrés des écarts.
+EXPONDIST		= LOI.EXPONENTIELLE		##	Renvoie la distribution exponentielle.
+FDIST			= LOI.F				##	Renvoie la distribution de probabilité F.
+FINV			= INVERSE.LOI.F			##	Renvoie lâ€™inverse de la distribution de probabilité F.
+FISHER			= FISHER			##	Renvoie la transformation de Fisher.
+FISHERINV		= FISHER.INVERSE		##	Renvoie lâ€™inverse de la transformation de Fisher.
+FORECAST		= PREVISION			##	Calcule une valeur par rapport Ã  une tendance linéaire.
+FREQUENCY		= FREQUENCE			##	Calcule la fréquence dâ€™apparition des valeurs dans une plage de valeurs, puis renvoie des nombres sous forme de matrice verticale.
+FTEST			= TEST.F			##	Renvoie le résultat dâ€™un test F.
+GAMMADIST		= LOI.GAMMA			##	Renvoie la probabilité dâ€™une variable aléatoire suivant une loi Gamma.
+GAMMAINV		= LOI.GAMMA.INVERSE		##	Renvoie, pour une probabilité donnée, la valeur dâ€™une variable aléatoire suivant une loi Gamma.
+GAMMALN			= LNGAMMA			##	Renvoie le logarithme népérien de la fonction Gamma, G(x)
+GEOMEAN			= MOYENNE.GEOMETRIQUE		##	Renvoie la moyenne géométrique.
+GROWTH			= CROISSANCE			##	Calcule des valeurs par rapport Ã  une tendance exponentielle.
+HARMEAN			= MOYENNE.HARMONIQUE		##	Renvoie la moyenne harmonique.
+HYPGEOMDIST		= LOI.HYPERGEOMETRIQUE		##	Renvoie la probabilité dâ€™une variable aléatoire discrÃ¨te suivant une loi hypergéométrique.
+INTERCEPT		= ORDONNEE.ORIGINE		##	Renvoie lâ€™ordonnée Ã  lâ€™origine dâ€™une droite de régression linéaire.
+KURT			= KURTOSIS			##	Renvoie le kurtosis dâ€™une série de données.
+LARGE			= GRANDE.VALEUR			##	Renvoie la k-iÃ¨me plus grande valeur dâ€™une série de données.
+LINEST			= DROITEREG			##	Renvoie les paramÃ¨tres dâ€™une tendance linéaire.
+LOGEST			= LOGREG			##	Renvoie les paramÃ¨tres dâ€™une tendance exponentielle.
+LOGINV			= LOI.LOGNORMALE.INVERSE	##	Renvoie lâ€™inverse de la probabilité pour une variable aléatoire suivant la loi lognormale.
+LOGNORMDIST		= LOI.LOGNORMALE		##	Renvoie la probabilité dâ€™une variable aléatoire continue suivant une loi lognormale.
+MAX			= MAX				##	Renvoie la valeur maximale contenue dans une liste dâ€™arguments.
+MAXA			= MAXA				##	Renvoie la valeur maximale dâ€™une liste dâ€™arguments, nombres, texte et valeurs logiques inclus.
+MEDIAN			= MEDIANE			##	Renvoie la valeur médiane des nombres donnés.
+MIN			= MIN				##	Renvoie la valeur minimale contenue dans une liste dâ€™arguments.
+MINA			= MINA				##	Renvoie la plus petite valeur dâ€™une liste dâ€™arguments, nombres, texte et valeurs logiques inclus.
+MODE			= MODE				##	Renvoie la valeur la plus courante dâ€™une série de données.
+NEGBINOMDIST		= LOI.BINOMIALE.NEG		##	Renvoie la probabilité dâ€™une variable aléatoire discrÃ¨te suivant une loi binomiale négative.
+NORMDIST		= LOI.NORMALE			##	Renvoie la probabilité dâ€™une variable aléatoire continue suivant une loi normale.
+NORMINV			= LOI.NORMALE.INVERSE		##	Renvoie, pour une probabilité donnée, la valeur dâ€™une variable aléatoire suivant une loi normale standard.
+NORMSDIST		= LOI.NORMALE.STANDARD		##	Renvoie la probabilité dâ€™une variable aléatoire continue suivant une loi normale standard.
+NORMSINV		= LOI.NORMALE.STANDARD.INVERSE	##	Renvoie lâ€™inverse de la distribution cumulée normale standard.
+PEARSON			= PEARSON			##	Renvoie le coefficient de corrélation dâ€™échantillonnage de Pearson.
+PERCENTILE		= CENTILE			##	Renvoie le k-iÃ¨me centile des valeurs dâ€™une plage.
+PERCENTRANK		= RANG.POURCENTAGE		##	Renvoie le rang en pourcentage dâ€™une valeur dâ€™une série de données.
+PERMUT			= PERMUTATION			##	Renvoie le nombre de permutations pour un nombre donné dâ€™objets.
+POISSON			= LOI.POISSON			##	Renvoie la probabilité dâ€™une variable aléatoire suivant une loi de Poisson.
+PROB			= PROBABILITE			##	Renvoie la probabilité que des valeurs dâ€™une plage soient comprises entre deux limites.
+QUARTILE		= QUARTILE			##	Renvoie le quartile dâ€™une série de données.
+RANK			= RANG				##	Renvoie le rang dâ€™un nombre contenu dans une liste.
+RSQ			= COEFFICIENT.DETERMINATION	##	Renvoie la valeur du coefficient de détermination R^2 dâ€™une régression linéaire.
+SKEW			= COEFFICIENT.ASYMETRIE		##	Renvoie lâ€™asymétrie dâ€™une distribution.
+SLOPE			= PENTE				##	Renvoie la pente dâ€™une droite de régression linéaire.
+SMALL			= PETITE.VALEUR			##	Renvoie la k-iÃ¨me plus petite valeur dâ€™une série de données.
+STANDARDIZE		= CENTREE.REDUITE		##	Renvoie une valeur centrée réduite.
+STDEV			= ECARTYPE			##	Évalue lâ€™écart type dâ€™une population en se basant sur un échantillon de cette population.
+STDEVA			= STDEVA			##	Évalue lâ€™écart type dâ€™une population en se basant sur un échantillon de cette population, nombres, texte et valeurs logiques inclus.
+STDEVP			= ECARTYPEP			##	Calcule lâ€™écart type dâ€™une population Ã  partir de la population entiÃ¨re.
+STDEVPA			= STDEVPA			##	Calcule lâ€™écart type dâ€™une population Ã  partir de lâ€™ensemble de la population, nombres, texte et valeurs logiques inclus.
+STEYX			= ERREUR.TYPE.XY		##	Renvoie lâ€™erreur type de la valeur y prévue pour chaque x de la régression.
+TDIST			= LOI.STUDENT			##	Renvoie la probabilité dâ€™une variable aléatoire suivant une loi T de Student.
+TINV			= LOI.STUDENT.INVERSE		##	Renvoie, pour une probabilité donnée, la valeur dâ€™une variable aléatoire suivant une loi T de Student.
+TREND			= TENDANCE			##	Renvoie des valeurs par rapport Ã  une tendance linéaire.
+TRIMMEAN		= MOYENNE.REDUITE		##	Renvoie la moyenne de lâ€™intérieur dâ€™une série de données.
+TTEST			= TEST.STUDENT			##	Renvoie la probabilité associée Ã  un test T de Student.
+VAR			= VAR				##	Calcule la variance sur la base dâ€™un échantillon.
+VARA			= VARA				##	Estime la variance dâ€™une population en se basant sur un échantillon de cette population, nombres, texte et valeurs logiques incluses.
+VARP			= VAR.P				##	Calcule la variance sur la base de lâ€™ensemble de la population.
+VARPA			= VARPA				##	Calcule la variance dâ€™une population en se basant sur la population entiÃ¨re, nombres, texte et valeurs logiques inclus.
+WEIBULL			= LOI.WEIBULL			##	Renvoie la probabilité dâ€™une variable aléatoire suivant une loi de Weibull.
+ZTEST			= TEST.Z			##	Renvoie la valeur de probabilité unilatérale dâ€™un test z.
+
+
+##
+##	Text functions					Fonctions de texte
+##
+ASC			= ASC				##	Change les caractÃ¨res anglais ou katakana Ã  pleine chasse (codés sur deux octets) Ã  lâ€™intérieur dâ€™une chaÃ®ne de caractÃ¨res en caractÃ¨res Ã  demi-chasse (codés sur un octet).
+BAHTTEXT		= BAHTTEXT			##	Convertit un nombre en texte en utilisant le format monétaire ÃŸ (baht).
+CHAR			= CAR				##	Renvoie le caractÃ¨re spécifié par le code numérique.
+CLEAN			= EPURAGE			##	Supprime tous les caractÃ¨res de contrÃ´le du texte.
+CODE			= CODE				##	Renvoie le numéro de code du premier caractÃ¨re du texte.
+CONCATENATE		= CONCATENER			##	Assemble plusieurs éléments textuels de faÃ§on Ã  nâ€™en former quâ€™un seul.
+DOLLAR			= EURO				##	Convertit un nombre en texte en utilisant le format monétaire â‚¬ (euro).
+EXACT			= EXACT				##	Vérifie si deux valeurs de texte sont identiques.
+FIND			= TROUVE			##	Trouve un valeur textuelle dans une autre, en respectant la casse.
+FINDB			= TROUVERB			##	Trouve un valeur textuelle dans une autre, en respectant la casse.
+FIXED			= CTXT				##	Convertit un nombre au format texte avec un nombre de décimales spécifié.
+JIS			= JIS				##	Change les caractÃ¨res anglais ou katakana Ã  demi-chasse (codés sur un octet) Ã  lâ€™intérieur dâ€™une chaÃ®ne de caractÃ¨res en caractÃ¨res Ã  Ã  pleine chasse (codés sur deux octets).
+LEFT			= GAUCHE			##	Renvoie des caractÃ¨res situés Ã  lâ€™extrÃªme gauche dâ€™une chaÃ®ne de caractÃ¨res.
+LEFTB			= GAUCHEB			##	Renvoie des caractÃ¨res situés Ã  lâ€™extrÃªme gauche dâ€™une chaÃ®ne de caractÃ¨res.
+LEN			= NBCAR				##	Renvoie le nombre de caractÃ¨res contenus dans une chaÃ®ne de texte.
+LENB			= LENB				##	Renvoie le nombre de caractÃ¨res contenus dans une chaÃ®ne de texte.
+LOWER			= MINUSCULE			##	Convertit le texte en minuscules.
+MID			= STXT				##	Renvoie un nombre déterminé de caractÃ¨res dâ€™une chaÃ®ne de texte Ã  partir de la position que vous indiquez.
+MIDB			= STXTB				##	Renvoie un nombre déterminé de caractÃ¨res dâ€™une chaÃ®ne de texte Ã  partir de la position que vous indiquez.
+PHONETIC		= PHONETIQUE			##	Extrait les caractÃ¨res phonétiques (furigana) dâ€™une chaÃ®ne de texte.
+PROPER			= NOMPROPRE			##	Met en majuscules la premiÃ¨re lettre de chaque mot dans une chaÃ®ne textuelle.
+REPLACE			= REMPLACER			##	Remplace des caractÃ¨res dans un texte.
+REPLACEB		= REMPLACERB			##	Remplace des caractÃ¨res dans un texte.
+REPT			= REPT				##	RépÃ¨te un texte un certain nombre de fois.
+RIGHT			= DROITE			##	Renvoie des caractÃ¨res situés Ã  lâ€™extrÃªme droite dâ€™une chaÃ®ne de caractÃ¨res.
+RIGHTB			= DROITEB			##	Renvoie des caractÃ¨res situés Ã  lâ€™extrÃªme droite dâ€™une chaÃ®ne de caractÃ¨res.
+SEARCH			= CHERCHE			##	Trouve un texte dans un autre texte (sans respecter la casse).
+SEARCHB			= CHERCHERB			##	Trouve un texte dans un autre texte (sans respecter la casse).
+SUBSTITUTE		= SUBSTITUE			##	Remplace lâ€™ancien texte dâ€™une chaÃ®ne de caractÃ¨res par un nouveau.
+T			= T				##	Convertit ses arguments en texte.
+TEXT			= TEXTE				##	Convertit un nombre au format texte.
+TRIM			= SUPPRESPACE			##	Supprime les espaces du texte.
+UPPER			= MAJUSCULE			##	Convertit le texte en majuscules.
+VALUE			= CNUM				##	Convertit un argument textuel en nombre

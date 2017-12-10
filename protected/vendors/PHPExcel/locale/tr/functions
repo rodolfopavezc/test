@@ -1,0 +1,438 @@
+﻿##
+## PHPExcel
+##
+## Copyright (c) 2006 - 2011 PHPExcel
+##
+## This library is free software; you can redistribute it and/or
+## modify it under the terms of the GNU Lesser General Public
+## License as published by the Free Software Foundation; either
+## version 2.1 of the License, or (at your option) any later version.
+##
+## This library is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+## Lesser General Public License for more details.
+##
+## You should have received a copy of the GNU Lesser General Public
+## License along with this library; if not, write to the Free Software
+## Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+##
+## @category   PHPExcel
+## @package    PHPExcel_Calculation
+## @copyright  Copyright (c) 2006 - 2011 PHPExcel (http://www.codeplex.com/PHPExcel)
+## @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt	LGPL
+## @version    1.7.8, 2012-10-12
+##
+## Data in this file derived from http://www.piuha.fi/excel-function-name-translation/
+##
+##
+
+
+##
+##	Add-in and Automation functions			Eklenti ve Otomasyon fonksiyonları
+##
+GETPIVOTDATA		= ÖZETVERİAL	##	Bir Özet Tablo raporunda saklanan verileri verir.
+
+
+##
+##	Cube functions					Küp işlevleri
+##
+CUBEKPIMEMBER		= KÜPKPIÜYE			##	Kilit performans göstergesi (KPI-Key Performance Indicator) adını, özelliğini ve ölçüsünü verir ve hücredeki ad ve özelliği gösterir. KPI, bir kurumun performansını izlemek için kullanılan aylık brüt kâr ya da üç aylık çalışan giriş çıkışları gibi ölçülebilen bir birimdir.
+CUBEMEMBER			= KÜPÜYE			##	Bir küp hiyerarşisinde bir üyeyi veya kaydı verir. Üye veya kaydın küpte varolduğunu doğrulamak için kullanılır.
+CUBEMEMBERPROPERTY	= KÜPÜYEÖZELLİĞİ	##	Bir küpte bir üyenin özelliğinin değerini verir. Küp içinde üye adının varlığını doğrulamak ve bu üyenin belli özelliklerini getirmek için kullanılır.
+CUBERANKEDMEMBER	= KÜPÜYESIRASI 		##	Bir küme içindeki üyenin derecesini veya kaçıncı olduğunu verir. En iyi satış elemanı, veya en iyi on öğrenci gibi bir kümedeki bir veya daha fazla öğeyi getirmek için kullanılır.
+CUBESET				= KÜPKÜME			##	Kümeyi oluşturan ve ardından bu kümeyi Microsoft Office Excel'e getiren sunucudaki küpe küme ifadelerini göndererek hesaplanan üye veya kayıt kümesini tanımlar.
+CUBESETCOUNT		= KÜPKÜMESAY		##	Bir kümedeki öğelerin sayısını getirir.
+CUBEVALUE			= KÜPDEĞER 			##	Bir küpten toplam değeri getirir.
+
+
+##
+##	Database functions				Veritabanı işlevleri
+##
+DAVERAGE		= VSEÇORT			##	Seçili veritabanı girdilerinin ortalamasını verir.
+DCOUNT			= VSEÇSAY			##	Veritabanında sayı içeren hücre sayısını hesaplar.
+DCOUNTA			= VSEÇSAYDOLU		##	Veritabanındaki boş olmayan hücreleri sayar.
+DGET			= VAL				##	Veritabanından, belirtilen ölçütlerle eşleşen tek bir rapor çıkarır.
+DMAX			= VSEÇMAK			##	Seçili veritabanı girişlerinin en yüksek değerini verir.
+DMIN			= VSEÇMİN			##	Seçili veritabanı girişlerinin en düşük değerini verir.
+DPRODUCT		= VSEÇÇARP			##	Kayıtların belli bir alanında bulunan, bir veritabanındaki ölçütlerle eşleşen değerleri çarpar.
+DSTDEV			= VSEÇSTDSAPMA		##	Seçili veritabanı girişlerinden oluşan bir örneğe dayanarak, standart sapmayı tahmin eder.
+DSTDEVP			= VSEÇSTDSAPMAS		##	Standart sapmayı, seçili veritabanı girişlerinin tüm popülasyonunu esas alarak hesaplar.
+DSUM			= VSEÇTOPLA			##	Kayıtların alan sütununda bulunan, ölçütle eşleşen sayıları toplar.
+DVAR			= VSEÇVAR			##	Seçili veritabanı girişlerinden oluşan bir örneği esas alarak farkı tahmin eder.
+DVARP			= VSEÇVARS			##	Seçili veritabanı girişlerinin tüm popülasyonunu esas alarak farkı hesaplar.
+
+
+##
+##	Date and time functions				Tarih ve saat işlevleri
+##
+DATE			= TARİH				##	Belirli bir tarihin seri numarasını verir.
+DATEVALUE		= TARİHSAYISI		##	Metin biçimindeki bir tarihi seri numarasına dönüştürür.
+DAY				= GÜN				##	Seri numarasını, ayın bir gününe dönüştürür.
+DAYS360			= GÜN360			##	İki tarih arasındaki gün sayısını, 360 günlük yılı esas alarak hesaplar.
+EDATE			= SERİTARİH			##	Başlangıç tarihinden itibaren, belirtilen ay sayısından önce veya sonraki tarihin seri numarasını verir.
+EOMONTH			= SERİAY			##	Belirtilen sayıda ay önce veya sonraki ayın son gününün seri numarasını verir.
+HOUR			= SAAT				##	Bir seri numarasını saate dönüştürür.
+MINUTE			= DAKİKA			##	Bir seri numarasını dakikaya dönüştürür.
+MONTH			= AY				##	Bir seri numarasını aya dönüştürür.
+NETWORKDAYS		= TAMİŞGÜNÜ			##	İki tarih arasındaki tam çalışma günlerinin sayısını verir.
+NOW				= ŞİMDİ				##	Geçerli tarihin ve saatin seri numarasını verir.
+SECOND			= SANİYE			##	Bir seri numarasını saniyeye dönüştürür.
+TIME			= ZAMAN				##	Belirli bir zamanın seri numarasını verir.
+TIMEVALUE		= ZAMANSAYISI		##	Metin biçimindeki zamanı seri numarasına dönüştürür.
+TODAY			= BUGÜN				##	Bugünün tarihini seri numarasına dönüştürür.
+WEEKDAY			= HAFTANINGÜNÜ		##	Bir seri numarasını, haftanın gününe dönüştürür.
+WEEKNUM			= HAFTASAY			##	Dizisel değerini, haftanın yıl içinde bulunduğu konumu sayısal olarak gösteren sayıya dönüştürür.
+WORKDAY			= İŞGÜNÜ			##	Belirtilen sayıda çalışma günü öncesinin ya da sonrasının tarihinin seri numarasını verir.
+YEAR			= YIL				##	Bir seri numarasını yıla dönüştürür.
+YEARFRAC		= YILORAN			##	Başlangıç_tarihi ve bitiş_tarihi arasındaki tam günleri gösteren yıl kesrini verir.
+
+
+##
+##	Engineering functions				Mühendislik işlevleri
+##
+BESSELI			= BESSELI			##	Değiştirilmiş Bessel fonksiyonu In(x)'i verir.
+BESSELJ			= BESSELJ			##	Bessel fonksiyonu Jn(x)'i verir.
+BESSELK			= BESSELK			##	Değiştirilmiş Bessel fonksiyonu Kn(x)'i verir.
+BESSELY			= BESSELY			##	Bessel fonksiyonu Yn(x)'i verir.
+BIN2DEC			= BIN2DEC			##	İkili bir sayıyı, ondalık sayıya dönüştürür.
+BIN2HEX			= BIN2HEX			##	İkili bir sayıyı, onaltılıya dönüştürür.
+BIN2OCT			= BIN2OCT			##	İkili bir sayıyı, sekizliye dönüştürür.
+COMPLEX			= KARMAŞIK			##	Gerçek ve sanal katsayıları, karmaşık sayıya dönüştürür.
+CONVERT			= ÇEVİR				##	Bir sayıyı, bir ölçüm sisteminden bir başka ölçüm sistemine dönüştürür.
+DEC2BIN			= DEC2BIN			##	Ondalık bir sayıyı, ikiliye dönüştürür.
+DEC2HEX			= DEC2HEX			##	Ondalık bir sayıyı, onaltılıya dönüştürür.
+DEC2OCT			= DEC2OCT			##	Ondalık bir sayıyı sekizliğe dönüştürür.
+DELTA			= DELTA				##	İki değerin eşit olup olmadığını sınar.
+ERF				= HATAİŞLEV			##	Hata işlevini verir.
+ERFC			= TÜMHATAİŞLEV		##	Tümleyici hata işlevini verir.
+GESTEP			= BESINIR			##	Bir sayının eşik değerinden büyük olup olmadığını sınar.
+HEX2BIN			= HEX2BIN			##	Onaltılı bir sayıyı ikiliye dönüştürür.
+HEX2DEC			= HEX2DEC			##	Onaltılı bir sayıyı ondalığa dönüştürür.
+HEX2OCT			= HEX2OCT			##	Onaltılı bir sayıyı sekizliğe dönüştürür.
+IMABS			= SANMUTLAK			##	Karmaşık bir sayının mutlak değerini (modül) verir.
+IMAGINARY		= SANAL				##	Karmaşık bir sayının sanal katsayısını verir.
+IMARGUMENT		= SANBAĞ_DEĞİŞKEN	##	Radyanlarla belirtilen bir açı olan teta bağımsız değişkenini verir.
+IMCONJUGATE		= SANEŞLENEK		##	Karmaşık bir sayının karmaşık eşleniğini verir.
+IMCOS			= SANCOS			##	Karmaşık bir sayının kosinüsünü verir.
+IMDIV			= SANBÖL			##	İki karmaşık sayının bölümünü verir.
+IMEXP			= SANÜS				##	Karmaşık bir sayının üssünü verir.
+IMLN			= SANLN				##	Karmaşık bir sayının doğal logaritmasını verir.
+IMLOG10			= SANLOG10			##	Karmaşık bir sayının, 10 tabanında logaritmasını verir.
+IMLOG2			= SANLOG2			##	Karmaşık bir sayının 2 tabanında logaritmasını verir.
+IMPOWER			= SANÜSSÜ			##	Karmaşık bir sayıyı, bir tamsayı üssüne yükseltilmiş olarak verir.
+IMPRODUCT		= SANÇARP			##	Karmaşık sayıların çarpımını verir.
+IMREAL			= SANGERÇEK			##	Karmaşık bir sayının, gerçek katsayısını verir.
+IMSIN			= SANSIN			##	Karmaşık bir sayının sinüsünü verir.
+IMSQRT			= SANKAREKÖK		##	Karmaşık bir sayının karekökünü verir.
+IMSUB			= SANÇIKAR			##	İki karmaşık sayının farkını verir.
+IMSUM			= SANTOPLA			##	Karmaşık sayıların toplamını verir.
+OCT2BIN			= OCT2BIN			##	Sekizli bir sayıyı ikiliye dönüştürür.
+OCT2DEC			= OCT2DEC			##	Sekizli bir sayıyı ondalığa dönüştürür.
+OCT2HEX			= OCT2HEX			##	Sekizli bir sayıyı onaltılıya dönüştürür.
+
+
+##
+##	Financial functions				Finansal fonksiyonlar
+##
+ACCRINT			= GERÇEKFAİZ		##	Dönemsel faiz ödeyen hisse senedine ilişkin tahakkuk eden faizi getirir.
+ACCRINTM		= GERÇEKFAİZV		##	Vadesinde ödeme yapan bir tahvilin tahakkuk etmiş faizini verir.
+AMORDEGRC		= AMORDEGRC			##	Yıpranma katsayısı kullanarak her hesap döneminin değer kaybını verir.
+AMORLINC		= AMORLINC			##	Her hesap dönemi içindeki yıpranmayı verir.
+COUPDAYBS		= KUPONGÜNBD		##	Kupon süresinin başlangıcından alış tarihine kadar olan süredeki gün sayısını verir.
+COUPDAYS		= KUPONGÜN			##	Kupon süresindeki, gün sayısını, alış tarihini de içermek üzere, verir.
+COUPDAYSNC		= KUPONGÜNDSK		##	Alış tarihinden bir sonraki kupon tarihine kadar olan gün sayısını verir.
+COUPNCD			= KUPONGÜNSKT		##	Alış tarihinden bir sonraki kupon tarihini verir.
+COUPNUM			= KUPONSAYI			##	Alış tarihiyle vade tarihi arasında ödenecek kuponların sayısını verir.
+COUPPCD			= KUPONGÜNÖKT		##	Alış tarihinden bir önceki kupon tarihini verir.
+CUMIPMT			= AİÇVERİMORANI		##	İki dönem arasında ödenen kümülatif faizi verir.
+CUMPRINC		= ANA_PARA_ÖDEMESİ	##	İki dönem arasında bir borç üzerine ödenen birikimli temeli verir.
+DB				= AZALANBAKİYE		##	Bir malın belirtilen bir süre içindeki yıpranmasını, sabit azalan bakiye yöntemini kullanarak verir.
+DDB				= ÇİFTAZALANBAKİYE	##	Bir malın belirtilen bir süre içindeki yıpranmasını, çift azalan bakiye yöntemi ya da sizin belirttiğiniz başka bir yöntemi kullanarak verir.
+DISC			= İNDİRİM			##	Bir tahvilin indirim oranını verir.
+DOLLARDE		= LİRAON			##	Kesir olarak tanımlanmış lira fiyatını, ondalık sayı olarak tanımlanmış lira fiyatına dönüştürür.
+DOLLARFR		= LİRAKES			##	Ondalık sayı olarak tanımlanmış lira fiyatını, kesir olarak tanımlanmış lira fiyatına dönüştürür.
+DURATION		= SÜRE				##	Belli aralıklarla faiz ödemesi yapan bir tahvilin yıllık süresini verir.
+EFFECT			= ETKİN				##	Efektif yıllık faiz oranını verir.
+FV				= ANBD				##	Bir yatırımın gelecekteki değerini verir.
+FVSCHEDULE		= GDPROGRAM			##	Bir seri birleşik faiz oranı uyguladıktan sonra, bir başlangıçtaki anaparanın gelecekteki değerini verir.
+INTRATE			= FAİZORANI			##	Tam olarak yatırım yapılmış bir tahvilin faiz oranını verir.
+IPMT			= FAİZTUTARI		##	Bir yatırımın verilen bir süre için faiz ödemesini verir.
+IRR				= İÇ_VERİM_ORANI	##	Bir para akışı serisi için, iç verim oranını verir.
+ISPMT			= ISPMT				##	Yatırımın belirli bir dönemi boyunca ödenen faizi hesaplar.
+MDURATION		= MSÜRE				##	Varsayılan par değeri 10.000.000 lira olan bir tahvil için Macauley değiştirilmiş süreyi verir.
+MIRR			= D_İÇ_VERİM_ORANI	##	Pozitif ve negatif para akışlarının farklı oranlarda finanse edildiği durumlarda, iç verim oranını verir.
+NOMINAL			= NOMİNAL			##	Yıllık nominal faiz oranını verir.
+NPER			= DÖNEM_SAYISI		##	Bir yatırımın dönem sayısını verir.
+NPV				= NBD				##	Bir yatırımın bugünkü net değerini, bir dönemsel para akışları serisine ve bir indirim oranına bağlı olarak verir.
+ODDFPRICE		= TEKYDEĞER			##	Tek bir ilk dönemi olan bir tahvilin değerini, her 100.000.000 lirada bir verir.
+ODDFYIELD		= TEKYÖDEME			##	Tek bir ilk dönemi olan bir tahvilin ödemesini verir.
+ODDLPRICE		= TEKSDEĞER			##	Tek bir son dönemi olan bir tahvilin fiyatını her 10.000.000 lirada bir verir.
+ODDLYIELD		= TEKSÖDEME			##	Tek bir son dönemi olan bir tahvilin ödemesini verir.
+PMT				= DEVRESEL_ÖDEME	##	Bir yıllık dönemsel ödemeyi verir.
+PPMT			= ANA_PARA_ÖDEMESİ	##	Verilen bir süre için, bir yatırımın anaparasına dayanan ödemeyi verir.
+PRICE			= DEĞER				##	Dönemsel faiz ödeyen bir tahvilin fiyatını 10.000.00 liralık değer başına verir.
+PRICEDISC		= DEĞERİND			##	İndirimli bir tahvilin fiyatını 10.000.000 liralık nominal değer başına verir.
+PRICEMAT		= DEĞERVADE			##	Faizini vade sonunda ödeyen bir tahvilin fiyatını 10.000.000 nominal değer başına verir.
+PV				= BD				##	Bir yatırımın bugünkü değerini verir.
+RATE			= FAİZ_ORANI		##	Bir yıllık dönem başına düşen faiz oranını verir.
+RECEIVED		= GETİRİ			##	Tam olarak yatırılmış bir tahvilin vadesinin bitiminde alınan miktarı verir.
+SLN				= DA				##	Bir malın bir dönem içindeki doğrusal yıpranmasını verir.
+SYD				= YAT				##	Bir malın belirli bir dönem için olan amortismanını verir.
+TBILLEQ			= HTAHEŞ			##	Bir Hazine bonosunun bono eşdeğeri ödemesini verir.
+TBILLPRICE		= HTAHDEĞER			##	Bir Hazine bonosunun değerini, 10.000.000 liralık nominal değer başına verir.
+TBILLYIELD		= HTAHÖDEME			##	Bir Hazine bonosunun ödemesini verir.
+VDB				= DAB				##	Bir malın amortismanını, belirlenmiş ya da kısmi bir dönem için, bir azalan bakiye yöntemi kullanarak verir.
+XIRR			= AİÇVERİMORANI		##	Dönemsel olması gerekmeyen bir para akışları programı için, iç verim oranını verir.
+XNPV			= ANBD				##	Dönemsel olması gerekmeyen bir para akışları programı için, bugünkü net değeri verir.
+YIELD			= ÖDEME				##	Belirli aralıklarla faiz ödeyen bir tahvilin ödemesini verir.
+YIELDDISC		= ÖDEMEİND			##	İndirimli bir tahvilin yıllık ödemesini verir; örneğin, bir Hazine bonosunun.
+YIELDMAT		= ÖDEMEVADE			##	Vadesinin bitiminde faiz ödeyen bir tahvilin yıllık ödemesini verir.
+
+
+##
+##	Information functions				Bilgi fonksiyonları
+##
+CELL			= HÜCRE			##	Bir hücrenin biçimlendirmesi, konumu ya da içeriği hakkında bilgi verir.
+ERROR.TYPE		= HATA.TİPİ		##	Bir hata türüne ilişkin sayıları verir.
+INFO			= BİLGİ			##	Geçerli işletim ortamı hakkında bilgi verir.
+ISBLANK			= EBOŞSA		##	Değer boşsa, DOĞRU verir.
+ISERR			= EHATA			##	Değer, #YOK dışındaki bir hata değeriyse, DOĞRU verir.
+ISERROR			= EHATALIYSA	##	Değer, herhangi bir hata değeriyse, DOĞRU verir.
+ISEVEN			= ÇİFTTİR		##	Sayı çiftse, DOĞRU verir.
+ISLOGICAL		= EMANTIKSALSA	##	Değer, mantıksal bir değerse, DOĞRU verir.
+ISNA			= EYOKSA		##	Değer, #YOK hata değeriyse, DOĞRU verir.
+ISNONTEXT		= EMETİNDEĞİLSE	##	Değer, metin değilse, DOĞRU verir.
+ISNUMBER		= ESAYIYSA		##	Değer, bir sayıysa, DOĞRU verir.
+ISODD			= TEKTİR		##	Sayı tekse, DOĞRU verir.
+ISREF			= EREFSE		##	Değer bir başvuruysa, DOĞRU verir.
+ISTEXT			= EMETİNSE		##	Değer bir metinse DOĞRU verir.
+N				= N				##	Sayıya dönüştürülmüş bir değer verir.
+NA				= YOKSAY		##	#YOK hata değerini verir.
+TYPE			= TİP			##	Bir değerin veri türünü belirten bir sayı verir.
+
+
+##
+##	Logical functions				Mantıksal fonksiyonlar
+##
+AND				= VE			##	Bütün bağımsız değişkenleri DOĞRU ise, DOĞRU verir.
+FALSE			= YANLIŞ		##	YANLIŞ mantıksal değerini verir.
+IF				= EĞER			##	Gerçekleştirilecek bir mantıksal sınama belirtir.
+IFERROR			= EĞERHATA		##	Formül hatalıysa belirttiğiniz değeri verir; bunun dışındaki durumlarda formülün sonucunu verir.
+NOT				= DEĞİL			##	Bağımsız değişkeninin mantığını tersine çevirir.
+OR				= YADA			##	Bağımsız değişkenlerden herhangi birisi DOĞRU ise, DOĞRU verir.
+TRUE			= DOĞRU			##	DOĞRU mantıksal değerini verir.
+
+
+##
+##	Lookup and reference functions			Arama ve Başvuru fonksiyonları
+##
+ADDRESS			= ADRES				##	Bir başvuruyu, çalışma sayfasındaki tek bir hücreye metin olarak verir.
+AREAS			= ALANSAY			##	Renvoie le nombre de zones dans une r�f�rence.
+CHOOSE			= ELEMAN			##	Değerler listesinden bir değer seçer.
+COLUMN			= SÜTUN				##	Bir başvurunun sütun sayısını verir.
+COLUMNS			= SÜTUNSAY			##	Bir başvurudaki sütunların sayısını verir.
+HLOOKUP			= YATAYARA			##	Bir dizinin en üst satırına bakar ve belirtilen hücrenin değerini verir.
+HYPERLINK		= KÖPRÜ				##	Bir ağ sunucusunda, bir intranette ya da Internet'te depolanan bir belgeyi açan bir kısayol ya da atlama oluşturur.
+INDEX			= İNDİS				##	Başvurudan veya diziden bir değer seçmek için, bir dizin kullanır.
+INDIRECT		= DOLAYLI			##	Metin değeriyle belirtilen bir başvuru verir.
+LOOKUP			= ARA				##	Bir vektördeki veya dizideki değerleri arar.
+MATCH			= KAÇINCI			##	Bir başvurudaki veya dizideki değerleri arar.
+OFFSET			= KAYDIR			##	Verilen bir başvurudan, bir başvuru kaydırmayı verir.
+ROW				= SATIR				##	Bir başvurunun satır sayısını verir.
+ROWS			= SATIRSAY			##	Bir başvurudaki satırların sayısını verir.
+RTD				= RTD				##	COM otomasyonunu destekleyen programdan gerçek zaman verileri alır.
+TRANSPOSE		= DEVRİK_DÖNÜŞÜM	##	Bir dizinin devrik dönüşümünü verir.
+VLOOKUP			= DÜŞEYARA			##	Bir dizinin ilk sütununa bakar ve bir hücrenin değerini vermek için satır boyunca hareket eder.
+
+
+##
+##	Math and trigonometry functions			Matematik ve trigonometri fonksiyonları
+##
+ABS				= MUTLAK			##	Bir sayının mutlak değerini verir.
+ACOS			= ACOS				##	Bir sayının ark kosinüsünü verir.
+ACOSH			= ACOSH				##	Bir sayının ters hiperbolik kosinüsünü verir.
+ASIN			= ASİN				##	Bir sayının ark sinüsünü verir.
+ASINH			= ASİNH				##	Bir sayının ters hiperbolik sinüsünü verir.
+ATAN			= ATAN				##	Bir sayının ark tanjantını verir.
+ATAN2			= ATAN2				##	Ark tanjantı, x- ve y- koordinatlarından verir.
+ATANH			= ATANH				##	Bir sayının ters hiperbolik tanjantını verir.
+CEILING			= TAVANAYUVARLA		##	Bir sayıyı, en yakın tamsayıya ya da en yakın katına yuvarlar.
+COMBIN			= KOMBİNASYON		##	Verilen sayıda öğenin kombinasyon sayısını verir.
+COS				= COS				##	Bir sayının kosinüsünü verir.
+COSH			= COSH				##	Bir sayının hiperbolik kosinüsünü verir.
+DEGREES			= DERECE			##	Radyanları dereceye dönüştürür.
+EVEN			= ÇİFT				##	Bir sayıyı, en yakın daha büyük çift tamsayıya yuvarlar.
+EXP				= ÜS				##	e'yi, verilen bir sayının üssüne yükseltilmiş olarak verir.
+FACT			= ÇARPINIM			##	Bir sayının faktörünü verir.
+FACTDOUBLE		= ÇİFTFAKTÖR		##	Bir sayının çift çarpınımını verir.
+FLOOR			= TABANAYUVARLA		##	Bir sayıyı, daha küçük sayıya, sıfıra yakınsayarak yuvarlar.
+GCD				= OBEB				##	En büyük ortak böleni verir.
+INT				= TAMSAYI			##	Bir sayıyı aşağıya doğru en yakın tamsayıya yuvarlar.
+LCM				= OKEK				##	En küçük ortak katı verir.
+LN				= LN				##	Bir sayının doğal logaritmasını verir.
+LOG				= LOG				##	Bir sayının, belirtilen bir tabandaki logaritmasını verir.
+LOG10			= LOG10				##	Bir sayının 10 tabanında logaritmasını verir.
+MDETERM			= DETERMİNANT		##	Bir dizinin dizey determinantını verir.
+MINVERSE		= DİZEY_TERS		##	Bir dizinin dizey tersini verir.
+MMULT			= DÇARP				##	İki dizinin dizey çarpımını verir.
+MOD				= MODÜLO			##	Bölmeden kalanı verir.
+MROUND			= KYUVARLA			##	İstenen kata yuvarlanmış bir sayı verir.
+MULTINOMIAL		= ÇOKTERİMLİ		##	Bir sayılar kümesinin çok terimlisini verir.
+ODD				= TEK				##	Bir sayıyı en yakın daha büyük tek sayıya yuvarlar.
+PI				= Pİ				##	Pi değerini verir.
+POWER			= KUVVET			##	Bir üsse yükseltilmiş sayının sonucunu verir.
+PRODUCT			= ÇARPIM			##	Bağımsız değişkenlerini çarpar.
+QUOTIENT		= BÖLÜM				##	Bir bölme işleminin tamsayı kısmını verir.
+RADIANS			= RADYAN			##	Dereceleri radyanlara dönüştürür.
+RAND			= S_SAYI_ÜRET		##	0 ile 1 arasında rastgele bir sayı verir.
+RANDBETWEEN		= RASTGELEARALIK	##	Belirttiğiniz sayılar arasında rastgele bir sayı verir.
+ROMAN			= ROMEN				##	Bir normal rakamı, metin olarak, romen rakamına çevirir.
+ROUND			= YUVARLA			##	Bir sayıyı, belirtilen basamak sayısına yuvarlar.
+ROUNDDOWN		= AŞAĞIYUVARLA		##	Bir sayıyı, daha küçük sayıya, sıfıra yakınsayarak yuvarlar.
+ROUNDUP			= YUKARIYUVARLA		##	Bir sayıyı daha büyük sayıya, sıfırdan ıraksayarak yuvarlar.
+SERIESSUM		= SERİTOPLA			##	Bir üs serisinin toplamını, formüle bağlı olarak verir.
+SIGN			= İŞARET			##	Bir sayının işaretini verir.
+SIN				= SİN				##	Verilen bir açının sinüsünü verir.
+SINH			= SİNH				##	Bir sayının hiperbolik sinüsünü verir.
+SQRT			= KAREKÖK			##	Pozitif bir karekök verir.
+SQRTPI			= KAREKÖKPİ			##	(* Pi sayısının) kare kökünü verir.
+SUBTOTAL		= ALTTOPLAM			##	Bir listedeki ya da veritabanındaki bir alt toplamı verir.
+SUM				= TOPLA				##	Bağımsız değişkenlerini toplar.
+SUMIF			= ETOPLA			##	Verilen ölçütle belirlenen hücreleri toplar.
+SUMIFS			= SUMIFS			##	Bir aralıktaki, birden fazla ölçüte uyan hücreleri ekler.
+SUMPRODUCT		= TOPLA.ÇARPIM		##	İlişkili dizi bileşenlerinin çarpımlarının toplamını verir.
+SUMSQ			= TOPKARE			##	Bağımsız değişkenlerin karelerinin toplamını verir.
+SUMX2MY2		= TOPX2EY2			##	İki dizideki ilişkili değerlerin farkının toplamını verir.
+SUMX2PY2		= TOPX2AY2			##	İki dizideki ilişkili değerlerin karelerinin toplamının toplamını verir.
+SUMXMY2			= TOPXEY2			##	İki dizideki ilişkili değerlerin farklarının karelerinin toplamını verir.
+TAN				= TAN				##	Bir sayının tanjantını verir.
+TANH			= TANH				##	Bir sayının hiperbolik tanjantını verir.
+TRUNC			= NSAT				##	Bir sayının, tamsayı durumuna gelecek şekilde, fazlalıklarını atar.
+
+
+##
+##	Statistical functions				İstatistiksel fonksiyonlar
+##
+AVEDEV			= ORTSAP			##	Veri noktalarının ortalamalarından mutlak sapmalarının ortalamasını verir.
+AVERAGE			= ORTALAMA			##	Bağımsız değişkenlerinin ortalamasını verir.
+AVERAGEA		= ORTALAMAA			##	Bağımsız değişkenlerinin, sayılar, metin ve mantıksal değerleri içermek üzere ortalamasını verir.
+AVERAGEIF		= EĞERORTALAMA 		##	Verili ölçütü karşılayan bir aralıktaki bütün hücrelerin ortalamasını (aritmetik ortalama) hesaplar.
+AVERAGEIFS		= EĞERLERORTALAMA 	##	Birden çok ölçüte uyan tüm hücrelerin ortalamasını (aritmetik ortalama) hesaplar.
+BETADIST		= BETADAĞ			##	Beta birikimli dağılım fonksiyonunu verir.
+BETAINV			= BETATERS			##	Belirli bir beta dağılımı için birikimli dağılım fonksiyonunun tersini verir.
+BINOMDIST		= BİNOMDAĞ			##	Tek terimli binom dağılımı olasılığını verir.
+CHIDIST			= KİKAREDAĞ			##	Kikare dağılımın tek kuyruklu olasılığını verir.
+CHIINV			= KİKARETERS		##	Kikare dağılımın kuyruklu olasılığının tersini verir.
+CHITEST			= KİKARETEST		##	Bağımsızlık sınamalarını verir.
+CONFIDENCE		= GÜVENİRLİK		##	Bir popülasyon ortalaması için güvenirlik aralığını verir.
+CORREL			= KORELASYON		##	İki veri kümesi arasındaki bağlantı katsayısını verir.
+COUNT			= BAĞ_DEĞ_SAY		##	Bağımsız değişkenler listesinde kaç tane sayı bulunduğunu sayar.
+COUNTA			= BAĞ_DEĞ_DOLU_SAY	##	Bağımsız değişkenler listesinde kaç tane değer bulunduğunu sayar.
+COUNTBLANK		= BOŞLUKSAY 		##	Aralıktaki boş hücre sayısını hesaplar.
+COUNTIF			= EĞERSAY 			##	Verilen ölçütlere uyan bir aralık içindeki hücreleri sayar.
+COUNTIFS		= ÇOKEĞERSAY 		##	Birden çok ölçüte uyan bir aralık içindeki hücreleri sayar.
+COVAR			= KOVARYANS 		##	Eşleştirilmiş sapmaların ortalaması olan kovaryansı verir.
+CRITBINOM		= KRİTİKBİNOM		##	Birikimli binom dağılımının bir ölçüt değerinden küçük veya ölçüt değerine eşit olduğu en küçük değeri verir.
+DEVSQ			= SAPKARE			##	Sapmaların karelerinin toplamını verir.
+EXPONDIST		= ÜSTELDAĞ			##	Üstel dağılımı verir.
+FDIST			= FDAĞ				##	F olasılık dağılımını verir.
+FINV			= FTERS				##	F olasılık dağılımının tersini verir.
+FISHER			= FISHER			##	Fisher dönüşümünü verir.
+FISHERINV		= FISHERTERS		##	Fisher dönüşümünün tersini verir.
+FORECAST		= TAHMİN			##	Bir doğrusal eğilim boyunca bir değer verir.
+FREQUENCY		= SIKLIK			##	Bir sıklık dağılımını, dikey bir dizi olarak verir.
+FTEST			= FTEST				##	Bir F-test'in sonucunu verir.
+GAMMADIST		= GAMADAĞ			##	Gama dağılımını verir.
+GAMMAINV		= GAMATERS			##	Gama kümülatif dağılımının tersini verir.
+GAMMALN			= GAMALN			##	Gama fonksiyonunun (?(x)) doğal logaritmasını verir.
+GEOMEAN			= GEOORT			##	Geometrik ortayı verir.
+GROWTH			= BÜYÜME			##	Üstel bir eğilim boyunca değerler verir.
+HARMEAN			= HARORT			##	Harmonik ortayı verir.
+HYPGEOMDIST		= HİPERGEOMDAĞ		##	Hipergeometrik dağılımı verir.
+INTERCEPT		= KESMENOKTASI		##	Doğrusal çakıştırma çizgisinin kesişme noktasını verir.
+KURT			= BASIKLIK			##	Bir veri kümesinin basıklığını verir.
+LARGE			= BÜYÜK				##	Bir veri kümesinde k. en büyük değeri verir.
+LINEST			= DOT				##	Doğrusal bir eğilimin parametrelerini verir.
+LOGEST			= LOT				##	Üstel bir eğilimin parametrelerini verir.
+LOGINV			= LOGTERS			##	Bir lognormal dağılımının tersini verir.
+LOGNORMDIST		= LOGNORMDAĞ		##	Birikimli lognormal dağılımını verir.
+MAX				= MAK				##	Bir bağımsız değişkenler listesindeki en büyük değeri verir.
+MAXA			= MAKA				##	Bir bağımsız değişkenler listesindeki, sayılar, metin ve mantıksal değerleri içermek üzere, en büyük değeri verir.
+MEDIAN			= ORTANCA			##	Belirtilen sayıların orta değerini verir.
+MIN				= MİN				##	Bir bağımsız değişkenler listesindeki en küçük değeri verir.
+MINA			= MİNA				##	Bir bağımsız değişkenler listesindeki, sayılar, metin ve mantıksal değerleri de içermek üzere, en küçük değeri verir.
+MODE			= ENÇOK_OLAN		##	Bir veri kümesindeki en sık rastlanan değeri verir.
+NEGBINOMDIST	= NEGBİNOMDAĞ		##	Negatif binom dağılımını verir.
+NORMDIST		= NORMDAĞ			##	Normal birikimli dağılımı verir.
+NORMINV			= NORMTERS			##	Normal kümülatif dağılımın tersini verir.
+NORMSDIST		= NORMSDAĞ			##	Standart normal birikimli dağılımı verir.
+NORMSINV		= NORMSTERS			##	Standart normal birikimli dağılımın tersini verir.
+PEARSON			= PEARSON			##	Pearson çarpım moment korelasyon katsayısını verir.
+PERCENTILE		= YÜZDEBİRLİK		##	Bir aralık içerisinde bulunan değerlerin k. frekans toplamını verir.
+PERCENTRANK		= YÜZDERANK			##	Bir veri kümesindeki bir değerin yüzde mertebesini verir.
+PERMUT			= PERMÜTASYON		##	Verilen sayıda nesne için permütasyon sayısını verir.
+POISSON			= POISSON			##	Poisson dağılımını verir.
+PROB			= OLASILIK			##	Bir aralıktaki değerlerin iki sınır arasında olması olasılığını verir.
+QUARTILE		= DÖRTTEBİRLİK		##	Bir veri kümesinin dörtte birliğini verir.
+RANK			= RANK				##	Bir sayılar listesinde bir sayının mertebesini verir.
+RSQ				= RKARE				##	Pearson çarpım moment korelasyon katsayısının karesini verir.
+SKEW			= ÇARPIKLIK			##	Bir dağılımın çarpıklığını verir.
+SLOPE			= EĞİM				##	Doğrusal çakışma çizgisinin eğimini verir.
+SMALL			= KÜÇÜK				##	Bir veri kümesinde k. en küçük değeri verir.
+STANDARDIZE		= STANDARTLAŞTIRMA	##	Normalleştirilmiş bir değer verir.
+STDEV			= STDSAPMA			##	Bir örneğe dayanarak standart sapmayı tahmin eder.
+STDEVA			= STDSAPMAA			##	Standart sapmayı, sayılar, metin ve mantıksal değerleri içermek üzere, bir örneğe bağlı olarak tahmin eder.
+STDEVP			= STDSAPMAS			##	Standart sapmayı, tüm popülasyona bağlı olarak hesaplar.
+STDEVPA			= STDSAPMASA		##	Standart sapmayı, sayılar, metin ve mantıksal değerleri içermek üzere, tüm popülasyona bağlı olarak hesaplar.
+STEYX			= STHYX				##	Regresyondaki her x için tahmini y değerinin standart hatasını verir.
+TDIST			= TDAĞ				##	T-dağılımını verir.
+TINV			= TTERS				##	T-dağılımının tersini verir.
+TREND			= EĞİLİM			##	Doğrusal bir eğilim boyunca değerler verir.
+TRIMMEAN		= KIRPORTALAMA		##	Bir veri kümesinin içinin ortalamasını verir.
+TTEST			= TTEST				##	T-test'le ilişkilendirilmiş olasılığı verir.
+VAR				= VAR				##	Varyansı, bir örneğe bağlı olarak tahmin eder.
+VARA			= VARA				##	Varyansı, sayılar, metin ve mantıksal değerleri içermek üzere, bir örneğe bağlı olarak tahmin eder.
+VARP			= VARS				##	Varyansı, tüm popülasyona dayanarak hesaplar.
+VARPA			= VARSA				##	Varyansı, sayılar, metin ve mantıksal değerleri içermek üzere, tüm popülasyona bağlı olarak hesaplar.
+WEIBULL			= WEIBULL			##	Weibull dağılımını hesaplar.
+ZTEST			= ZTEST				##	Z-testinin tek kuyruklu olasılık değerini hesaplar.
+
+
+##
+##	Text functions					Metin fonksiyonları
+##
+ASC				= ASC 				##	Bir karakter dizesindeki çift enli (iki bayt) İngilizce harfleri veya katakanayı yarım enli (tek bayt) karakterlerle değiştirir.
+BAHTTEXT		= BAHTTEXT 			##	Sayıyı, ß (baht) para birimi biçimini kullanarak metne dönüştürür.
+CHAR			= DAMGA 			##	Kod sayısıyla belirtilen karakteri verir.
+CLEAN			= TEMİZ				##	Metindeki bütün yazdırılamaz karakterleri kaldırır.
+CODE			= KOD				##	Bir metin dizesindeki ilk karakter için sayısal bir kod verir.
+CONCATENATE		= BİRLEŞTİR			##	Pek çok metin öğesini bir metin öğesi olarak birleştirir.
+DOLLAR			= LİRA				##	Bir sayıyı YTL (yeni Türk lirası) para birimi biçimini kullanarak metne dönüştürür.
+EXACT			= ÖZDEŞ				##	İki metin değerinin özdeş olup olmadığını anlamak için, değerleri denetler.
+FIND			= BUL				##	Bir metin değerini, bir başkasının içinde bulur (büyük küçük harf duyarlıdır).
+FINDB			= BULB				##	Bir metin değerini, bir başkasının içinde bulur (büyük küçük harf duyarlıdır).
+FIXED			= SAYIDÜZENLE		##	Bir sayıyı, sabit sayıda ondalıkla, metin olarak biçimlendirir.
+JIS				= JIS				##	Bir karakter dizesindeki tek enli (tek bayt) İngilizce harfleri veya katakanayı çift enli (iki bayt) karakterlerle değiştirir.
+LEFT			= SOL				##	Bir metin değerinden en soldaki karakterleri verir.
+LEFTB			= SOLB				##	Bir metin değerinden en soldaki karakterleri verir.
+LEN				= UZUNLUK			##	Bir metin dizesindeki karakter sayısını verir.
+LENB			= UZUNLUKB			##	Bir metin dizesindeki karakter sayısını verir.
+LOWER			= KÜÇÜKHARF			##	Metni küçük harfe çevirir.
+MID				= ORTA				##	Bir metin dizesinden belirli sayıda karakteri, belirttiğiniz konumdan başlamak üzere verir.
+MIDB			= ORTAB				##	Bir metin dizesinden belirli sayıda karakteri, belirttiğiniz konumdan başlamak üzere verir.
+PHONETIC		= SES				##	Metin dizesinden ses (furigana) karakterlerini ayıklar.
+PROPER			= YAZIM.DÜZENİ		##	Bir metin değerinin her bir sözcüğünün ilk harfini büyük harfe çevirir.
+REPLACE			= DEĞİŞTİR			##	Metnin içindeki karakterleri değiştirir.
+REPLACEB		= DEĞİŞTİRB			##	Metnin içindeki karakterleri değiştirir.
+REPT			= YİNELE			##	Metni belirtilen sayıda yineler.
+RIGHT			= SAĞ				##	Bir metin değerinden en sağdaki karakterleri verir.
+RIGHTB			= SAĞB				##	Bir metin değerinden en sağdaki karakterleri verir.
+SEARCH			= BUL				##	Bir metin değerini, bir başkasının içinde bulur (büyük küçük harf duyarlı değildir).
+SEARCHB			= BULB				##	Bir metin değerini, bir başkasının içinde bulur (büyük küçük harf duyarlı değildir).
+SUBSTITUTE		= YERİNEKOY			##	Bir metin dizesinde, eski metnin yerine yeni metin koyar.
+T				= M					##	Bağımsız değerlerini metne dönüştürür.
+TEXT			= METNEÇEVİR		##	Bir sayıyı biçimlendirir ve metne dönüştürür.
+TRIM			= KIRP				##	Metindeki boşlukları kaldırır.
+UPPER			= BÜYÜKHARF			##	Metni büyük harfe çevirir.
+VALUE			= SAYIYAÇEVİR		##	Bir metin bağımsız değişkenini sayıya dönüştürür.
